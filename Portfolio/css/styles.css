@@ -40,5 +40,29 @@ top: 320px;}
 .first {height: 440px;
 background-color: grey;}
 
+img.app {height: 300px;
+  position: absolute;
+top: 500px;
+left: 25%;}
+
+img.app:hover {height: 350px;
+transition: 1s;}
+
+img.explore {height: 300px;
+position: absolute;
+top: 500px;
+left: 40%;}
+
+img.explore:hover {height: 350px;
+transition: 1s;}
+
+
 .second {height: 400px;
-background-color: black;}
+background-color: white;}
+
+.second p {width: 600px;
+text-align: center;
+position: absolute;
+left: 35%;
+top:1000px;
+font-size: 12pt;}
