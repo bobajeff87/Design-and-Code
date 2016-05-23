@@ -1,0 +1,63 @@
+* {margin: 0;
+padding: 0;}
+
+.header {height: 400px;}
+
+.header .headerimg {height: 400px;
+width: 100%;
+position:absolute;
+opacity: 0.9;}
+
+.header p {position: relative;
+color: white;
+left: 20px;
+top: 10px;
+font-family: "moon light";}
+
+.header span {}
+
+.header span p {font-family: "moon light";
+border: 1px solid white;
+width: 30%;
+text-align: center;
+font-size: 28pt;
+left:35%;
+top: 150px;}
+
+.mission {height: 400px;
+}
+
+.mission h4 {font-family: "moon light";
+text-align: center;
+position: relative;
+top: 20px;}
+
+.mission p {font-family: "moon light";
+font-size: 8pt;
+width: 40%;
+position: relative;
+text-align: center;
+float: right;
+right: 100px;
+top: 90px;}
+
+.mission img {height: 200px;
+width: 250px;
+opacity: 0.9;
+position: relative;
+left: 150px;
+top: 75px;
+border-radius: 50%;}
+
+.resources {height: 400px;
+background-color: #37202c;
+opacity: 0.9;}
+
+.resources p {color: white;
+width: 40%;
+font-size: 8pt;
+font-family: "moon light";
+position: relative;
+text-align: center;
+left: 100px;
+top: 90px;}
