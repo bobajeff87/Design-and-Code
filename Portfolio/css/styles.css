@@ -43,7 +43,8 @@ background-color: grey;}
 img.app {height: 300px;
   position: absolute;
 top: 500px;
-left: 25%;}
+left: 25%;
+border-radius: 15px;}
 
 img.app:hover {height: 350px;
 transition: 1s;}
@@ -51,7 +52,8 @@ transition: 1s;}
 img.explore {height: 300px;
 position: absolute;
 top: 500px;
-left: 40%;}
+left: 40%;
+border-radius: 15px;}
 
 img.explore:hover {height: 350px;
 transition: 1s;}
@@ -66,3 +68,9 @@ position: absolute;
 left: 35%;
 top:1000px;
 font-size: 12pt;}
+
+/* run tests
+
+.animated bounceInUp {
+  transition-duration: 4s;
+} */
