@@ -4,13 +4,9 @@ $(document).ready(function () {
   $(".creator").addClass("animated fadeInRight");
 
   $(".app").addClass("animated bounceInUp").css("transition-duration", "2s");
-  $(".explore").addClass("animated zoomIn");
+  $(".explore").addClass("animated bounceInDown");
 
   $(".app").hover(function(){
-    $(this).addClass("animated bounce");
-  });
-
-  $(".explore").hover(function(){
     $(this).addClass("animated bounce");
   });
 
