@@ -22,10 +22,13 @@ nav ul:hover {
 nav ul li {
 margin: 0px;
 color: white;
+<<<<<<< HEAD
 }
 
 nav ul li {
 color: white;
+=======
+>>>>>>> parent of 8f0b841... Merge remote-tracking branch 'origin/master'
 display: inline-block;
 padding-right: 20px;
 }
@@ -37,6 +40,7 @@ nav ul li:hover {
 background-color: white;
 font-family: besom;
 font-size: 38pt;
+<<<<<<< HEAD
 color: black;
 }
 
@@ -46,6 +50,9 @@ color: black;
 
 .header p.creator {
 }
+=======
+color: black;}
+>>>>>>> parent of 8f0b841... Merge remote-tracking branch 'origin/master'
 
 .designer {position: absolute;
 left: 65%;
@@ -82,8 +89,7 @@ transition: 1s;}
 
 
 .second {height: 400px;
-background-color: white;
-}
+background-color: white;}
 
 .second p {width: 600px;
 text-align: center;
@@ -92,7 +98,15 @@ left: 35%;
 top:1000px;
 font-size: 12pt;}
 
+<<<<<<< HEAD
 font-size: 12pt;
 border-radius: 20px;
 border: solid 1px black;
 padding: 15px;}
+=======
+/* run tests
+
+.animated bounceInUp {
+  transition-duration: 4s;
+} */
+>>>>>>> parent of 8f0b841... Merge remote-tracking branch 'origin/master'
