@@ -15,24 +15,44 @@ left: 40%;
 top: 5px;
 }
 
+nav ul:hover {
+  opacity: 0.7;
+}
+
 nav ul li {
-color: grey;
+margin: 0px;
+color: white;
+<<<<<<< HEAD
+}
+
+nav ul li {
+color: white;
+=======
+>>>>>>> parent of 8f0b841... Merge remote-tracking branch 'origin/master'
 display: inline-block;
-padding-left: 10px;}
+padding-right: 20px;
+}
+
+nav ul li:hover {
+}
 
 .header {height: 400px;
 background-color: white;
 font-family: besom;
 font-size: 38pt;
+<<<<<<< HEAD
 color: black;
 }
 
-.header p.designer {border: solid 1px black;
-background-color:aquamarine;
+.header p.designer {
+
 }
 
-.header p.creator {border: solid 1px black;
+.header p.creator {
 }
+=======
+color: black;}
+>>>>>>> parent of 8f0b841... Merge remote-tracking branch 'origin/master'
 
 .designer {position: absolute;
 left: 65%;
@@ -52,7 +72,8 @@ background-color: grey;}
 img.app {height: 300px;
   position: absolute;
 top: 500px;
-left: 25%;}
+left: 25%;
+border-radius: 15px;}
 
 img.app:hover {height: 350px;
 transition: 1s;}
@@ -60,22 +81,32 @@ transition: 1s;}
 img.explore {height: 300px;
 position: absolute;
 top: 500px;
-left: 40%;}
+left: 40%;
+border-radius: 15px;}
 
 img.explore:hover {height: 350px;
 transition: 1s;}
 
 
 .second {height: 400px;
-background-color: white;
-}
+background-color: white;}
 
 .second p {width: 600px;
 text-align: center;
 position: absolute;
 left: 35%;
 top:1000px;
+font-size: 12pt;}
+
+<<<<<<< HEAD
 font-size: 12pt;
 border-radius: 20px;
 border: solid 1px black;
 padding: 15px;}
+=======
+/* run tests
+
+.animated bounceInUp {
+  transition-duration: 4s;
+} */
+>>>>>>> parent of 8f0b841... Merge remote-tracking branch 'origin/master'
