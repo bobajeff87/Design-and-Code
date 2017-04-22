@@ -127,14 +127,41 @@ font-family: 'Open Sans Condensed', sans-serif;}
 .welcomeservices {background-color: white;
 height: 450px;}
 
-.welcometext {color: black;}
+.welcometext {color: black;
+font-family: 'Josefin Sans', sans-serif;
+position: absolute;
+left: 31%;
+top: 1060px;
+letter-spacing: 2px;
+}
 
 .welcomeimage {position: absolute;
 left: 25%;
 top: 1100px;
-height: 200px;
-width: auto;
+height: 120px;
+width: 290px;
 }
 
 .individualityBG {height: 450px;;
 width: 100%;}
+
+.headerlogo2 {position: absolute;
+left: 49%;
+top: 1550px;
+width: 50px;
+height: auto;
+z-index: 3;}
+
+.indivh1 {color: white;
+position: absolute;
+left: 40%;
+top: 1625px;
+letter-spacing: 8px;
+font-family: 'Josefin Sans', sans-serif;}
+
+.indivh4 {color: white;
+position: absolute;
+left: 40%;
+top: 1700px;
+letter-spacing: 2px;
+font-family: 'Open Sans Condensed', sans-serif;}
