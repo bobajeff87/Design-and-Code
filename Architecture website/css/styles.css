@@ -5,6 +5,8 @@
 padding: 0px;
 border: 0px;}
 
+@media (min-width: @screen-sm-min) {}
+
 body {background-color: black;}
 
 nav {background-color: white;
@@ -85,13 +87,15 @@ width: 100%;}
 
 .whatwedop {color: white;
 position: absolute;
-left: 200px;
+left: 250px;
 top: 575px;
 font-family: 'Josefin Sans', sans-serif;}
 
-hr {height: 100px;
-color: pink;
-z-index: 2;}
+hr {color: pink;
+position: absolute;
+top: 600px;
+z-index: 3;
+}
 
 .headerlogo {position: absolute;
 left: 49%;
@@ -101,26 +105,50 @@ height: auto;
 z-index: 1;}
 
 .newconstructionlogo {position: absolute;
-left: 20%;
+left: 30%;
 top: 650px;
 height: 30px;
 width: 30px;}
 
 .newconstruction {color: white;
 position: absolute;
-left: 18%;
+left: 28.25%;
 top: 700px;
 font-family: 'Open Sans Condensed', sans-serif;}
 
 .landsurveyinglogo {position: absolute;
-left: 35%;
+left: 40%;
 top: 650px;
 height: 30px;
 width: 30px;}
 
 .landsurveying {color: white;
 position: absolute;
-left: 33.5%;
+left: 38.75%;
+top: 700px;
+font-family: 'Open Sans Condensed', sans-serif;}
+
+.constructadminlogo {position: absolute;
+left: 52%;
+top: 650px;
+height: 30px;
+width: 30px;}
+
+.constructadmin {color: white;
+position: absolute;
+left: 49%;
+top: 700px;
+font-family: 'Open Sans Condensed', sans-serif;}
+
+.renovationlogo {position: absolute;
+left: 65%;
+top: 650px;
+height: 30px;
+width: 30px;}
+
+.renovation {color: white;
+position: absolute;
+left: 63%;
 top: 700px;
 font-family: 'Open Sans Condensed', sans-serif;}
 
@@ -130,13 +158,37 @@ height: 450px;}
 .welcometext {color: black;
 font-family: 'Josefin Sans', sans-serif;
 position: absolute;
-left: 31%;
-top: 1060px;
+left: 25%;
+top: 1040px;
 letter-spacing: 2px;
 }
 
 .welcomeimage {position: absolute;
 left: 25%;
+top: 1100px;
+height: 120px;
+width: 290px;
+}
+
+.welcomeparagraph {color: black;
+font-family: 'Open Sans Condensed', sans-serif;
+position: absolute;
+top: 1250px;
+left: 25%;
+width: 290px;
+text-align: center;
+}
+
+.servicestext {color: black;
+font-family: 'Josefin Sans', sans-serif;
+position: absolute;
+left: 50%;
+top: 1040px;
+letter-spacing: 2px;
+}
+
+.servicesimage {position: absolute;
+left: 50%;
 top: 1100px;
 height: 120px;
 width: 290px;
