@@ -171,6 +171,7 @@ hr {
     left: 30%;
     margin-left: -120px;
     top: 750px;
+    visibility: hidden;
 }
 
 .landsurveyinglogo {
