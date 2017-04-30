@@ -33,4 +33,15 @@ $(document).ready(function() {
         $(this).removeClass("animated bounce");
     });
 
+    $(".newconstructiondesc").css("visibility", "hidden");
+
+    $(".newconstruction").hover(function() {
+        $(".newconstructiondesc").css("visibility", "visible");
+    })
+
+    $(".newconstruction").mouseleave(function() {
+        $(".newconstructiondesc").css("visibility", "hidden");
+    })
+
+
 });
