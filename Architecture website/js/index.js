@@ -25,5 +25,13 @@ $(document).ready(function() {
         $(".newconstructiondesc").css("visibility", "hidden");
     })
 
+    $(".landsurveying").hover(function() {
+        $(".landsurveyingdesc").css("visibility", "visible");
+    })
+
+    $(".landsurveying").mouseleave(function() {
+        $(".landsurveyingdesc").css("visibility", "hidden");
+    })
+
 
 });
