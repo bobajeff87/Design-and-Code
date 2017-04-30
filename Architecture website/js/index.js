@@ -1,36 +1,37 @@
 $(document).ready(function() {
     // alert ("hello");
 
-    $(".newconstructionlogo").hover(function() {
+    $(".newconstructionlogo, .landsurveyinglogo").hover(function() {
         $(this).addClass("animated rotateIn");
     });
 
-    $(".newconstructionlogo").mouseleave(function() {
+    $(".newconstructionlogo, .landsurveyinglogo").mouseleave(function() {
         $(this).removeClass("animated rotateIn");
     });
 
-    $(".landsurveyinglogo").hover(function() {
-        $(this).addClass("animated rotateIn");
-    });
-
-    $(".landsurveyinglogo").mouseleave(function() {
-        $(this).removeClass("animated rotateIn");
-    });
-
-    $(".constructadminlogo").hover(function() {
+    $(".constructadminlogo, .renovationlogo").hover(function() {
         $(this).addClass("animated bounce");
     });
 
-    $(".constructadminlogo").mouseleave(function() {
+    $(".constructadminlogo, .renovationlogo").mouseleave(function() {
         $(this).removeClass("animated bounce");
     });
 
-    $(".renovationlogo").hover(function() {
-        $(this).addClass("animated bounce");
-    });
+    $(".newconstruction").hover(function() {
+        $(".newconstructiondesc").css("visibility", "visible");
+    })
 
-    $(".renovationlogo").mouseleave(function() {
-        $(this).removeClass("animated bounce");
-    });
+    $(".newconstruction").mouseleave(function() {
+        $(".newconstructiondesc").css("visibility", "hidden");
+    })
+
+    $(".landsurveying").hover(function() {
+        $(".landsurveyingdesc").css("visibility", "visible");
+    })
+
+    $(".landsurveying").mouseleave(function() {
+        $(".landsurveyingdesc").css("visibility", "hidden");
+    })
+
 
 });
