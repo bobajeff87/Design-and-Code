@@ -5,7 +5,7 @@ $(document).ready(function() {
         $(this).addClass("animated rotateIn");
     });
 
-    $(".newconstructionlogo, .landsurveyinglogo").mouseleave(function() {
+    $(".newconstructionlogo, .newconstruction, .landsurveyinglogo").mouseleave(function() {
         $(this).removeClass("animated rotateIn");
     });
 
@@ -17,20 +17,36 @@ $(document).ready(function() {
         $(this).removeClass("animated bounce");
     });
 
-    $(".newconstruction").hover(function() {
+    $(".newconstruction, .newconstructionlogo").hover(function() {
         $(".newconstructiondesc").css("visibility", "visible");
     })
 
-    $(".newconstruction").mouseleave(function() {
+    $(".newconstruction, .newconstructionlogo").mouseleave(function() {
         $(".newconstructiondesc").css("visibility", "hidden");
     })
 
-    $(".landsurveying").hover(function() {
+    $(".landsurveying, .landsurveyinglogo").hover(function() {
         $(".landsurveyingdesc").css("visibility", "visible");
     })
 
-    $(".landsurveying").mouseleave(function() {
+    $(".landsurveying, .landsurveyinglogo").mouseleave(function() {
         $(".landsurveyingdesc").css("visibility", "hidden");
+    })
+
+    $(".constructadmin, .constructadminlogo").hover(function() {
+        $(".constructadmindesc").css("visibility", "visible");
+    })
+
+    $(".constructadmin, .constructadminlogo").mouseleave(function() {
+        $(".constructadmindesc").css("visibility", "hidden");
+    })
+
+    $(".renovation, .renovationlogo").hover(function() {
+        $(".renovationdesc").css("visibility", "visible");
+    })
+
+    $(".renovation, .renovationlogo").mouseleave(function() {
+        $(".renovationdesc").css("visibility", "hidden");
     })
 
 

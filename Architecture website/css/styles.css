@@ -219,6 +219,19 @@ hr {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.constructadmindesc {
+    color: white;
+    width: 250px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 12pt;
+    position: absolute;
+    left: 50%;
+    margin-left: -70px;
+    top: 750px;
+    visibility: hidden;
+}
+
 .renovationlogo {
     position: absolute;
     left: 65%;
@@ -233,6 +246,19 @@ hr {
     left: 63%;
     top: 700px;
     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.renovationdesc {
+    color: white;
+    width: 250px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 12pt;
+    position: absolute;
+    left: 65%;
+    margin-left: -110px;
+    top: 750px;
+    visibility: hidden;
 }
 
 
