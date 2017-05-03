@@ -10,7 +10,7 @@ $(document).ready(function() {
     });
 
     $(".constructadminlogo, .renovationlogo").hover(function() {
-        $(this).addClass("animated bounce");
+        $(this).addClass("animated tada");
     });
 
     $(".constructadminlogo, .renovationlogo").mouseleave(function() {
