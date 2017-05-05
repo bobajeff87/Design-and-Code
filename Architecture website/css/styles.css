@@ -127,6 +127,7 @@ h4 {
     left: 250px;
     top: 575px;
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 16pt;
 }
 
 hr {
@@ -366,4 +367,18 @@ hr {
 .ourteam {
     height: 450px;
     background-color: white;
+}
+
+.teamp {
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16pt;
+}
+
+
+/* footer */
+
+.footer {
+    color: #141414;
+    height: 100px;
 }
