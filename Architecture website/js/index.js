@@ -9,12 +9,20 @@ $(document).ready(function() {
         $(this).removeClass("animated rotateIn");
     });
 
-    $(".constructadminlogo, .renovationlogo").hover(function() {
-        $(this).addClass("animated tada");
+    $(".constructadminlogo, .constructadmin").hover(function() {
+        $(".constructadminlogo").addClass("animated tada");
     });
 
-    $(".constructadminlogo, .renovationlogo").mouseleave(function() {
-        $(this).removeClass("animated bounce");
+    $(".constructadminlogo, .constructadmin").mouseleave(function() {
+        $(".constructadminlogo").removeClass("animated tada");
+    });
+
+    $(".renovationlogo, .renovation").hover(function() {
+        $(".renovationlogo").addClass("animated tada");
+    });
+
+    $(".renovationlogo, .renovation").mouseleave(function() {
+        $(".renovationlogo").removeClass("animated tada");
     });
 
     $(".newconstruction, .newconstructionlogo").hover(function() {
