@@ -148,7 +148,7 @@ hr {
 
 .newconstructionlogo {
     position: absolute;
-    left: 30%;
+    left: 33%;
     top: 650px;
     height: 30px;
     width: 30px;
@@ -157,7 +157,7 @@ hr {
 .newconstruction {
     color: white;
     position: absolute;
-    left: 28.25%;
+    left: 31.25%;
     top: 700px;
     font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -169,7 +169,7 @@ hr {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 12pt;
     position: absolute;
-    left: 30%;
+    left: 33%;
     margin-left: -120px;
     top: 750px;
     visibility: hidden;
@@ -177,7 +177,7 @@ hr {
 
 .landsurveyinglogo {
     position: absolute;
-    left: 40%;
+    left: 43%;
     top: 650px;
     height: 30px;
     width: 30px;
@@ -186,7 +186,7 @@ hr {
 .landsurveying {
     color: white;
     position: absolute;
-    left: 38.75%;
+    left: 41.75%;
     top: 700px;
     font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -198,7 +198,7 @@ hr {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 12pt;
     position: absolute;
-    left: 40%;
+    left: 43%;
     margin-left: -110px;
     top: 750px;
     visibility: hidden;
@@ -206,7 +206,7 @@ hr {
 
 .constructadminlogo {
     position: absolute;
-    left: 52%;
+    left: 55%;
     top: 650px;
     height: 30px;
     width: 30px;
@@ -215,7 +215,7 @@ hr {
 .constructadmin {
     color: white;
     position: absolute;
-    left: 49%;
+    left: 52%;
     top: 700px;
     font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -227,7 +227,7 @@ hr {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 12pt;
     position: absolute;
-    left: 50%;
+    left: 52%;
     margin-left: -70px;
     top: 750px;
     visibility: hidden;
@@ -235,7 +235,7 @@ hr {
 
 .renovationlogo {
     position: absolute;
-    left: 65%;
+    left: 68%;
     top: 650px;
     height: 30px;
     width: 30px;
@@ -244,7 +244,7 @@ hr {
 .renovation {
     color: white;
     position: absolute;
-    left: 63%;
+    left: 66.25%;
     top: 700px;
     font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -256,7 +256,7 @@ hr {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 12pt;
     position: absolute;
-    left: 65%;
+    left: 68%;
     margin-left: -110px;
     top: 750px;
     visibility: hidden;
@@ -274,14 +274,14 @@ hr {
     color: black;
     font-family: 'Josefin Sans', sans-serif;
     position: absolute;
-    left: 25%;
+    left: 30%;
     top: 985px;
     letter-spacing: 2px;
 }
 
 .welcomeimage {
     position: absolute;
-    left: 25%;
+    left: 30%;
     top: 1050px;
     height: 120px;
     width: 290px;
@@ -291,7 +291,7 @@ hr {
     font-family: 'Josefin Sans', sans-serif;
     position: absolute;
     top: 1190px;
-    left: 25%;
+    left: 30%;
     width: 290px;
     text-align: center;
     letter-spacing: 1px;
@@ -301,7 +301,7 @@ hr {
     font-family: 'Josefin Sans', sans-serif;
     position: absolute;
     top: 1225px;
-    left: 25%;
+    left: 30%;
     width: 300px;
     text-align: center;
 }
@@ -310,14 +310,14 @@ hr {
     color: black;
     font-family: 'Josefin Sans', sans-serif;
     position: absolute;
-    left: 50%;
+    left: 53%;
     top: 985px;
     letter-spacing: 2px;
 }
 
 .servicesimage {
     position: absolute;
-    left: 50%;
+    left: 53%;
     top: 1050px;
     height: 120px;
     width: 290px;
@@ -327,7 +327,7 @@ ul.serviceul {
     color: black;
     font-family: 'Josefin Sans', sans-serif;
     position: absolute;
-    left: 52%;
+    left: 55%;
     top: 1190px;
     letter-spacing: 1px;
 }
@@ -395,12 +395,12 @@ list-style-type: circle;}
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16pt;
     position: absolute;
-    left: 20%;
+    left: 22%;
     top: 1875px;
 }
 
 .ourteamspan {position: absolute;
-left: 25%;
+left: 27%;
 top: 1925px;}
 
 .ourteamspan img {padding-left: 20px;
