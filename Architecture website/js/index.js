@@ -1,10 +1,9 @@
 $(document).ready(function() {
-    // alert ("hello");
 
     $(".newconstructionlogo, .newconstruction").hover(function() {
         $(".newconstructionlogo").addClass("animated rubberBand");
     });
-    
+
     $(".newconstructionlogo, .newconstruction").mouseleave(function() {
         $(".newconstructionlogo").removeClass("animated rubberBand");
     });
