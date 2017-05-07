@@ -160,6 +160,7 @@ hr {
     left: 31.25%;
     top: 700px;
     font-family: 'Open Sans Condensed', sans-serif;
+    cursor: default;
 }
 
 .newconstructiondesc {
@@ -189,6 +190,7 @@ hr {
     left: 41.75%;
     top: 700px;
     font-family: 'Open Sans Condensed', sans-serif;
+    cursor: default;
 }
 
 .landsurveyingdesc {
@@ -218,6 +220,7 @@ hr {
     left: 52%;
     top: 700px;
     font-family: 'Open Sans Condensed', sans-serif;
+    cursor: default;
 }
 
 .constructadmindesc {
@@ -247,6 +250,7 @@ hr {
     left: 66.25%;
     top: 700px;
     font-family: 'Open Sans Condensed', sans-serif;
+    cursor: default;
 }
 
 .renovationdesc {
