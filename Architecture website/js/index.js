@@ -4,8 +4,7 @@ $(document).ready(function() {
     $(".newconstructionlogo, .newconstruction").hover(function() {
         $(".newconstructionlogo").addClass("animated rubberBand");
     });
-
-<<<<<<< HEAD
+    
     $(".newconstructionlogo, .newconstruction").mouseleave(function() {
         $(".newconstructionlogo").removeClass("animated rubberBand");
     });
@@ -32,26 +31,6 @@ $(document).ready(function() {
 
     $(".renovationlogo, .renovation").mouseleave(function() {
         $(".renovationlogo").removeClass("animated rubberBand");
-=======
-    $(".newconstructionlogo, .newconstruction, .landsurveyinglogo").mouseleave(function() {
-        $(this).removeClass("animated rotateIn");
-    });
-
-    $(".constructadminlogo, .constructadmin").hover(function() {
-        $(".constructadminlogo").addClass("animated tada");
-    });
-
-    $(".constructadminlogo, .constructadmin").mouseleave(function() {
-        $(".constructadminlogo").removeClass("animated tada");
-    });
-
-    $(".renovationlogo, .renovation").hover(function() {
-        $(".renovationlogo").addClass("animated tada");
-    });
-
-    $(".renovationlogo, .renovation").mouseleave(function() {
-        $(".renovationlogo").removeClass("animated tada");
->>>>>>> 0c3bc1b853a09dcb7aa9f27dbcfb590eda1c624e
     });
 
     $(".newconstruction, .newconstructionlogo").hover(function() {
