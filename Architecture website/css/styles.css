@@ -6,7 +6,7 @@
     border: 0px;
 }
 
-@media (min-width: @screen-sm-min) {}
+@media (min-width:) {}
 
 body {
     background-color: black;
@@ -124,9 +124,10 @@ h4 {
 .whatwedop {
     color: white;
     position: absolute;
-    left: 250px;
+    left: 20%;
     top: 575px;
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 16pt;
 }
 
 hr {
@@ -219,6 +220,19 @@ hr {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.constructadmindesc {
+    color: white;
+    width: 250px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 12pt;
+    position: absolute;
+    left: 50%;
+    margin-left: -70px;
+    top: 750px;
+    visibility: hidden;
+}
+
 .renovationlogo {
     position: absolute;
     left: 65%;
@@ -233,6 +247,19 @@ hr {
     left: 63%;
     top: 700px;
     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.renovationdesc {
+    color: white;
+    width: 250px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 12pt;
+    position: absolute;
+    left: 65%;
+    margin-left: -110px;
+    top: 750px;
+    visibility: hidden;
 }
 
 
@@ -259,14 +286,23 @@ hr {
     height: 120px;
     width: 290px;
 }
-
-.welcomeparagraph {
+.welcomeheadline {
     color: black;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     position: absolute;
-    top: 1200px;
+    top: 1190px;
     left: 25%;
     width: 290px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.welcomeparagraph {
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 1225px;
+    left: 25%;
+    width: 300px;
     text-align: center;
 }
 
@@ -286,6 +322,18 @@ hr {
     height: 120px;
     width: 290px;
 }
+
+ul.serviceul {
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    left: 52%;
+    top: 1190px;
+    letter-spacing: 1px;
+}
+
+ul.serviceul li {margin-bottom: 10px;
+list-style-type: circle;}
 
 
 /* individuality section */
@@ -340,4 +388,28 @@ hr {
 .ourteam {
     height: 450px;
     background-color: white;
+}
+
+.teamp {
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16pt;
+    position: absolute;
+    left: 20%;
+    top: 1875px;
+}
+
+.ourteamspan {position: absolute;
+left: 25%;
+top: 1925px;}
+
+.ourteamspan img {padding-left: 20px;
+padding-right: 30px;}
+
+
+/* footer */
+
+.footer {
+    color: #141414;
+    height: 100px;
 }
