@@ -290,6 +290,7 @@ hr {
     height: 120px;
     width: 290px;
 }
+
 .welcomeheadline {
     color: black;
     font-family: 'Josefin Sans', sans-serif;
@@ -300,6 +301,7 @@ hr {
     text-align: center;
     letter-spacing: 1px;
 }
+
 .welcomeparagraph {
     color: black;
     font-family: 'Josefin Sans', sans-serif;
@@ -336,8 +338,10 @@ ul.serviceul {
     letter-spacing: 1px;
 }
 
-ul.serviceul li {margin-bottom: 10px;
-list-style-type: circle;}
+ul.serviceul li {
+    margin-bottom: 10px;
+    list-style-type: circle;
+}
 
 
 /* individuality section */
@@ -403,12 +407,17 @@ list-style-type: circle;}
     top: 1875px;
 }
 
-.ourteamspan {position: absolute;
-left: 27%;
-top: 1925px;}
+.ourteamspan {
+    position: absolute;
+    left: 27%;
+    top: 1925px;
+}
 
-.ourteamspan img {padding-left: 20px;
-padding-right: 30px;}
+.ourteamspan img {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
 
 /* footer */
 
