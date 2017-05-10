@@ -110,7 +110,35 @@ nav {
     width: 600px;
     position: absolute;
     top: 1000px;
-    left: 5%;
 }
 
-.whatthefuck
+.willhelp {
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    top: 1050px;
+    left: 45%;
+}
+
+.embrace {
+    font-family: 'Poiret One', cursive;
+    font-size: 40pt;
+    position: absolute;
+    top: 1100px;
+    left: 50%;
+    color: #3019c9;
+    letter-spacing: 2px;
+    width: 600px;
+}
+
+.training {
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    top: 1250px;
+    left: 65%;
+    width: 300px;
+    text-align: center;
+}
+
+.voice {
+    height: 400px;
+}
