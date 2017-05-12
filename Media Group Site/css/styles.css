@@ -5,7 +5,7 @@
 }
 
 .header {
-    background-image: url("_assets/03bike.png");
+    background-image: url("_assets/01bike.jpg");
     background-size: 100% 100%;
     height: 600px;
 }
@@ -13,11 +13,19 @@
 nav {
     background-color: white;
     text-align: center;
-    opacity: 0.8;
-    height: 25px;
+    opacity: 0.9;
+    height: 50px;
+    line-height: 50px;
     width: 75%;
+    margin: 0 auto;
+}
+
+ul {
+    margin-left: 400px;
 }
 
 ul li {
     display: inline-block;
+    vertical-align: center;
+    padding-right: 40px;
 }
