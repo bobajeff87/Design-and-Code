@@ -59,12 +59,6 @@ ul::after {
     border: 3px solid #deb8bc;
 }
 
-.design p {
-    color: white;
-    font-size: 44pt;
-    text-align: center;
-}
-
 .photography {
     background-color: #A52A45;
     width: 150px;
@@ -78,12 +72,6 @@ ul::after {
     left: 45%;
     top: 525px;
     border: 3px solid #deb8bc;
-}
-
-.photography p {
-    color: white;
-    font-size: 44pt;
-    text-align: center;
 }
 
 .branding {
@@ -100,6 +88,8 @@ ul::after {
     border: 3px solid #deb8bc;
 }
 
+.design p,
+.photography p,
 .branding p {
     color: white;
     font-size: 44pt;
