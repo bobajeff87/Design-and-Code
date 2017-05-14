@@ -10,12 +10,19 @@
     height: 600px;
 }
 
+.header p {
+    font-size: 80pt;
+    color: white;
+    text-align: center;
+    line-height: 600px;
+}
+
 nav {
     background-color: white;
     text-align: center;
-    opacity: 0.9;
-    height: 50px;
-    line-height: 50px;
+    opacity: 0.85;
+    height: 75px;
+    line-height: 75px;
     width: 75%;
     margin: 0 auto;
 }
@@ -28,4 +35,77 @@ ul li {
     display: inline-block;
     vertical-align: center;
     padding-right: 40px;
+}
+
+ul::after {
+    content: "|";
+}
+
+.popUp {
+    margin: 0 auto;
+}
+
+.design {
+    background-color: #5c323e;
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    position: absolute;
+    left: 20%;
+    line-height: 150px;
+    top: 525px;
+    border: 3px solid #deb8bc;
+}
+
+.design p {
+    color: white;
+    font-size: 44pt;
+    text-align: center;
+}
+
+.photography {
+    background-color: #A52A45;
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    line-height: 150px;
+    margin: 0 auto;
+    position: absolute;
+    left: 45%;
+    top: 525px;
+    border: 3px solid #deb8bc;
+}
+
+.photography p {
+    color: white;
+    font-size: 44pt;
+    text-align: center;
+}
+
+.branding {
+    background-color: #e15e32;
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    position: absolute;
+    left: 70%;
+    line-height: 150px;
+    top: 525px;
+    border: 3px solid #deb8bc;
+}
+
+.branding p {
+    color: white;
+    font-size: 44pt;
+    text-align: center;
+}
+
+.projects {
+    height: 400px;
 }
