@@ -96,6 +96,25 @@ ul::after {
     text-align: center;
 }
 
+.design h3,
+.branding h3,
+.photography h3 {
+    text-align: center;
+}
+
+.popupp {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    box-shadow: 2px 4px 4px black;
+    border: 1px solid #deb8bc;
+    position: absolute;
+    left: 15%;
+    top: 300px;
+    text-align: center;
+    visibility: hidden;
+}
+
 .projects {
     height: 400px;
 }
