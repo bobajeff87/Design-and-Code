@@ -17,6 +17,12 @@
     line-height: 600px;
 }
 
+.logo {
+    position: absolute;
+    left: 250px;
+    top: 25px;
+}
+
 nav {
     background-color: white;
     text-align: center;
@@ -47,44 +53,44 @@ ul::after {
 
 .design {
     background-color: #5c323e;
-    width: 150px;
-    height: 150px;
-    -moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    border-radius: 100px;
+    width: 125px;
+    height: 125px;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
     position: absolute;
     left: 20%;
-    line-height: 150px;
-    top: 525px;
+    line-height: 125px;
+    top: 550px;
     border: 3px solid #deb8bc;
 }
 
 .photography {
     background-color: #A52A45;
-    width: 150px;
-    height: 150px;
-    -moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    border-radius: 100px;
-    line-height: 150px;
+    width: 125px;
+    height: 125px;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+    line-height: 125px;
     margin: 0 auto;
     position: absolute;
     left: 45%;
-    top: 525px;
+    top: 550px;
     border: 3px solid #deb8bc;
 }
 
 .branding {
     background-color: #e15e32;
-    width: 150px;
-    height: 150px;
-    -moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    border-radius: 100px;
+    width: 125px;
+    height: 125px;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
     position: absolute;
     left: 70%;
-    line-height: 150px;
-    top: 525px;
+    line-height: 125px;
+    top: 550px;
     border: 3px solid #deb8bc;
 }
 
@@ -92,7 +98,7 @@ ul::after {
 .photography p,
 .branding p {
     color: white;
-    font-size: 44pt;
+    font-size: 34pt;
     text-align: center;
 }
 
@@ -118,3 +124,50 @@ ul::after {
 .projects {
     height: 400px;
 }
+
+/* hexagons */
+
+.hexagon {
+    background-image: url("_assets/skate.jpg");
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+       -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+         -o-transform: rotate(120deg);
+            transform: rotate(120deg);
+    cursor: pointer;
+    position: absolute;
+    left: 45%;
+}
+
+.hexagon-in1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+.hexagon-in2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-image: url("_assets/building.jpg");
+    background-size: cover;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+
+.hexagon1 {
+    width: 200px;
+    height: 400px;
+    margin: -80px 0 0 20px;
+    }
