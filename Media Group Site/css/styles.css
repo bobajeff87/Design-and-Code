@@ -127,46 +127,189 @@ ul::after {
 
 /* hexagons */
 
-.hexagon {
-    background-image: url("_assets/skate.jpg");
+.project1 {
+    background-image: url("_assets/project1.png");
+    background-size: contain;
     overflow: hidden;
     visibility: hidden;
     -webkit-transform: rotate(120deg);
-       -moz-transform: rotate(120deg);
-        -ms-transform: rotate(120deg);
-         -o-transform: rotate(120deg);
-            transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
     cursor: pointer;
     position: absolute;
-    left: 45%;
+    left: 10%;
+    top: 900px;
 }
 
-.hexagon-in1 {
+.project1-in1 {
     overflow: hidden;
     width: 100%;
     height: 100%;
     -webkit-transform: rotate(-60deg);
-       -moz-transform: rotate(-60deg);
-        -ms-transform: rotate(-60deg);
-         -o-transform: rotate(-60deg);
-            transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
     }
-.hexagon-in2 {
+.project1-in2 {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-position: 25%;
-    background-image: url("_assets/building.jpg");
-    background-size: cover;
+    background-image: url("_assets/project1.png");
+    background-size: contain;
     visibility: visible;
     -webkit-transform: rotate(-60deg);
-       -moz-transform: rotate(-60deg);
-        -ms-transform: rotate(-60deg);
-         -o-transform: rotate(-60deg);
-            transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+     transform: rotate(-60deg);
     }
 
 .hexagon1 {
+    width: 200px;
+    height: 400px;
+    margin: -80px 0 0 20px;
+    }
+
+.project2 {
+    background-image: url("_assets/project2.png");
+    background-size: contain;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+    cursor: pointer;
+    position: absolute;
+    left: 30%;
+    top: 900px;
+}
+
+.project2-in1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+    }
+.project2-in2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-image: url("_assets/project2.png");
+    background-size: contain;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+     transform: rotate(-60deg);
+    }
+
+.hexagon2 {
+    width: 200px;
+    height: 400px;
+    margin: -80px 0 0 20px;
+    }
+
+.project3 {
+    background-image: url("_assets/project3.png");
+    background-size: contain;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 900px;
+}
+
+.project3-in1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+    }
+.project3-in2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-image: url("_assets/project3.png");
+    background-size: contain;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+     transform: rotate(-60deg);
+    }
+
+.hexagon3 {
+    width: 200px;
+    height: 400px;
+    margin: -80px 0 0 20px;
+    }
+
+.project4 {
+    background-image: url("_assets/project4.png");
+    background-size: contain;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+    cursor: pointer;
+    position: absolute;
+    left: 70%;
+    top: 900px;
+}
+
+.project4-in1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+    }
+.project4-in2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-image: url("_assets/project4.png");
+    background-size: contain;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+     transform: rotate(-60deg);
+    }
+
+.hexagon4 {
     width: 200px;
     height: 400px;
     margin: -80px 0 0 20px;
