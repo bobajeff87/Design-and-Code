@@ -139,7 +139,7 @@ ul::after {
     transform: rotate(120deg);
     cursor: pointer;
     position: absolute;
-    left: 10%;
+    left: 13%;
     top: 900px;
 }
 
@@ -186,7 +186,7 @@ ul::after {
     transform: rotate(120deg);
     cursor: pointer;
     position: absolute;
-    left: 30%;
+    left: 33%;
     top: 900px;
 }
 
@@ -233,7 +233,7 @@ ul::after {
     transform: rotate(120deg);
     cursor: pointer;
     position: absolute;
-    left: 50%;
+    left: 53%;
     top: 900px;
 }
 
@@ -280,7 +280,7 @@ ul::after {
     transform: rotate(120deg);
     cursor: pointer;
     position: absolute;
-    left: 70%;
+    left: 72%;
     top: 900px;
 }
 
@@ -316,3 +316,11 @@ ul::after {
     }
 
 /* hexagon complete */
+
+hr {
+    width: 75%;
+    position: absolute;
+    top: 750px;
+    left: 12.5%;
+    border: 1px solid grey;
+}
