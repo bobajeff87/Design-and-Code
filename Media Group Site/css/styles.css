@@ -1,326 +1,332 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-}
-
-.header {
-    background-image: url("_assets/01bike.jpg");
-    background-size: 100% 100%;
-    height: 600px;
-}
-
-.header p {
-    font-size: 80pt;
-    color: white;
-    text-align: center;
-    line-height: 600px;
-}
-
-.logo {
-    position: absolute;
-    left: 250px;
-    top: 25px;
-}
-
-nav {
-    background-color: white;
-    text-align: center;
-    opacity: 0.85;
-    height: 75px;
-    line-height: 75px;
-    width: 75%;
-    margin: 0 auto;
-}
-
-ul {
-    margin-left: 400px;
-}
-
-ul li {
-    display: inline-block;
-    vertical-align: center;
-    padding-right: 40px;
-}
-
-ul::after {
-    content: "|";
-}
-
-.popUp {
-    margin: 0 auto;
-}
-
-.design {
-    background-color: #5c323e;
-    width: 125px;
-    height: 125px;
-    -moz-border-radius: 75px;
-    -webkit-border-radius: 75px;
-    border-radius: 75px;
-    position: absolute;
-    left: 20%;
-    line-height: 125px;
-    top: 550px;
-    border: 3px solid #deb8bc;
-}
-
-.photography {
-    background-color: #A52A45;
-    width: 125px;
-    height: 125px;
-    -moz-border-radius: 75px;
-    -webkit-border-radius: 75px;
-    border-radius: 75px;
-    line-height: 125px;
-    margin: 0 auto;
-    position: absolute;
-    left: 45%;
-    top: 550px;
-    border: 3px solid #deb8bc;
-}
-
-.branding {
-    background-color: #e15e32;
-    width: 125px;
-    height: 125px;
-    -moz-border-radius: 75px;
-    -webkit-border-radius: 75px;
-    border-radius: 75px;
-    position: absolute;
-    left: 70%;
-    line-height: 125px;
-    top: 550px;
-    border: 3px solid #deb8bc;
-}
-
-.design p,
-.photography p,
-.branding p {
-    color: white;
-    font-size: 34pt;
-    text-align: center;
-}
-
-.design h3,
-.branding h3,
-.photography h3 {
-    text-align: center;
-}
-
-.popupp {
-    background-color: white;
-    height: 300px;
-    width: 300px;
-    box-shadow: 2px 4px 4px black;
-    border: 1px solid #deb8bc;
-    position: absolute;
-    left: 15%;
-    top: 300px;
-    text-align: center;
-    visibility: hidden;
-}
-
-.projects {
-    height: 400px;
-}
-
-/* hexagons */
-
-.project1 {
-    background-image: url("_assets/project1.png");
-    background-size: contain;
-    overflow: hidden;
-    visibility: hidden;
-    -webkit-transform: rotate(120deg);
-    -moz-transform: rotate(120deg);
-    -ms-transform: rotate(120deg);
-    -o-transform: rotate(120deg);
-    transform: rotate(120deg);
-    cursor: pointer;
-    position: absolute;
-    left: 13%;
-    top: 900px;
-}
-
-.project1-in1 {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    -webkit-transform: rotate(-60deg);
-    -moz-transform: rotate(-60deg);
-    -ms-transform: rotate(-60deg);
-    -o-transform: rotate(-60deg);
-    transform: rotate(-60deg);
-    }
-.project1-in2 {
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: 25%;
-    background-image: url("_assets/project1.png");
-    background-size: contain;
-    visibility: visible;
-    -webkit-transform: rotate(-60deg);
-    -moz-transform: rotate(-60deg);
-    -ms-transform: rotate(-60deg);
-    -o-transform: rotate(-60deg);
+ @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+ * {
+     margin: 0px;
+     padding: 0px;
+     border: 0px;
+ }
+ 
+ .header {
+     background-image: url("_assets/01bike.jpg");
+     background-size: 100% 100%;
+     height: 600px;
+ }
+ 
+ .header p {
+     font-size: 80pt;
+     color: white;
+     text-align: center;
+     line-height: 600px;
+     font-family: 'Fjalla One', sans-serif;
+     letter-spacing: 8px;
+ }
+ 
+ .logo {
+     position: absolute;
+     left: 250px;
+     top: 25px;
+ }
+ 
+ nav {
+     background-color: white;
+     text-align: center;
+     opacity: 0.85;
+     height: 75px;
+     line-height: 75px;
+     width: 75%;
+     margin: 0 auto;
+ }
+ 
+ ul {
+     margin-left: 400px;
+ }
+ 
+ ul li {
+     display: inline-block;
+     vertical-align: center;
+     padding-right: 40px;
+ }
+ 
+ ul::after {
+     content: "|";
+ }
+ 
+ .popUp {
+     margin: 0 auto;
+ }
+ 
+ .design {
+     background-color: #5c323e;
+     width: 125px;
+     height: 125px;
+     -moz-border-radius: 75px;
+     -webkit-border-radius: 75px;
+     border-radius: 75px;
+     position: absolute;
+     left: 20%;
+     line-height: 125px;
+     top: 550px;
+     border: 3px solid #deb8bc;
+ }
+ 
+ .photography {
+     background-color: #A52A45;
+     width: 125px;
+     height: 125px;
+     -moz-border-radius: 75px;
+     -webkit-border-radius: 75px;
+     border-radius: 75px;
+     line-height: 125px;
+     margin: 0 auto;
+     position: absolute;
+     left: 45%;
+     top: 550px;
+     border: 3px solid #deb8bc;
+ }
+ 
+ .branding {
+     background-color: #e15e32;
+     width: 125px;
+     height: 125px;
+     -moz-border-radius: 75px;
+     -webkit-border-radius: 75px;
+     border-radius: 75px;
+     position: absolute;
+     left: 70%;
+     line-height: 125px;
+     top: 550px;
+     border: 3px solid #deb8bc;
+ }
+ 
+ .design p,
+ .photography p,
+ .branding p {
+     color: white;
+     font-size: 34pt;
+     text-align: center;
+     font-family: 'Fjalla One', sans-serif;
+ }
+ 
+ .design h3,
+ .branding h3,
+ .photography h3 {
+     text-align: center;
+ }
+ 
+ .popupp {
+     background-color: white;
+     height: 300px;
+     width: 300px;
+     box-shadow: 2px 4px 4px black;
+     border: 1px solid #deb8bc;
+     position: absolute;
+     left: 15%;
+     top: 300px;
+     text-align: center;
+     visibility: hidden;
+ }
+ 
+ .projects {
+     height: 400px;
+ }
+ /* hexagons */
+ 
+ .project1 {
+     background-image: url("_assets/project1.png");
+     background-size: contain;
+     overflow: hidden;
+     visibility: hidden;
+     -webkit-transform: rotate(120deg);
+     -moz-transform: rotate(120deg);
+     -ms-transform: rotate(120deg);
+     -o-transform: rotate(120deg);
+     transform: rotate(120deg);
+     cursor: pointer;
+     position: absolute;
+     left: 13%;
+     top: 900px;
+ }
+ 
+ .project1-in1 {
+     overflow: hidden;
+     width: 100%;
+     height: 100%;
+     -webkit-transform: rotate(-60deg);
+     -moz-transform: rotate(-60deg);
+     -ms-transform: rotate(-60deg);
+     -o-transform: rotate(-60deg);
      transform: rotate(-60deg);
-    }
-
-.hexagon1 {
-    width: 200px;
-    height: 400px;
-    margin: -80px 0 0 20px;
-    }
-
-.project2 {
-    background-image: url("_assets/project2.png");
-    background-size: contain;
-    overflow: hidden;
-    visibility: hidden;
-    -webkit-transform: rotate(120deg);
-    -moz-transform: rotate(120deg);
-    -ms-transform: rotate(120deg);
-    -o-transform: rotate(120deg);
-    transform: rotate(120deg);
-    cursor: pointer;
-    position: absolute;
-    left: 33%;
-    top: 900px;
-}
-
-.project2-in1 {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    -webkit-transform: rotate(-60deg);
-    -moz-transform: rotate(-60deg);
-    -ms-transform: rotate(-60deg);
-    -o-transform: rotate(-60deg);
-    transform: rotate(-60deg);
-    }
-.project2-in2 {
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: 25%;
-    background-image: url("_assets/project2.png");
-    background-size: contain;
-    visibility: visible;
-    -webkit-transform: rotate(-60deg);
-    -moz-transform: rotate(-60deg);
-    -ms-transform: rotate(-60deg);
-    -o-transform: rotate(-60deg);
+ }
+ 
+ .project1-in2 {
+     width: 100%;
+     height: 100%;
+     background-repeat: no-repeat;
+     background-position: 25%;
+     background-image: url("_assets/project1.png");
+     background-size: contain;
+     visibility: visible;
+     -webkit-transform: rotate(-60deg);
+     -moz-transform: rotate(-60deg);
+     -ms-transform: rotate(-60deg);
+     -o-transform: rotate(-60deg);
      transform: rotate(-60deg);
-    }
-
-.hexagon2 {
-    width: 200px;
-    height: 400px;
-    margin: -80px 0 0 20px;
-    }
-
-.project3 {
-    background-image: url("_assets/project3.png");
-    background-size: contain;
-    overflow: hidden;
-    visibility: hidden;
-    -webkit-transform: rotate(120deg);
-    -moz-transform: rotate(120deg);
-    -ms-transform: rotate(120deg);
-    -o-transform: rotate(120deg);
-    transform: rotate(120deg);
-    cursor: pointer;
-    position: absolute;
-    left: 53%;
-    top: 900px;
-}
-
-.project3-in1 {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    -webkit-transform: rotate(-60deg);
-    -moz-transform: rotate(-60deg);
-    -ms-transform: rotate(-60deg);
-    -o-transform: rotate(-60deg);
-    transform: rotate(-60deg);
-    }
-.project3-in2 {
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: 25%;
-    background-image: url("_assets/project3.png");
-    background-size: contain;
-    visibility: visible;
-    -webkit-transform: rotate(-60deg);
-    -moz-transform: rotate(-60deg);
-    -ms-transform: rotate(-60deg);
-    -o-transform: rotate(-60deg);
+ }
+ 
+ .hexagon1 {
+     width: 200px;
+     height: 400px;
+     margin: -80px 0 0 20px;
+ }
+ 
+ .project2 {
+     background-image: url("_assets/project2.png");
+     background-size: contain;
+     overflow: hidden;
+     visibility: hidden;
+     -webkit-transform: rotate(120deg);
+     -moz-transform: rotate(120deg);
+     -ms-transform: rotate(120deg);
+     -o-transform: rotate(120deg);
+     transform: rotate(120deg);
+     cursor: pointer;
+     position: absolute;
+     left: 33%;
+     top: 900px;
+ }
+ 
+ .project2-in1 {
+     overflow: hidden;
+     width: 100%;
+     height: 100%;
+     -webkit-transform: rotate(-60deg);
+     -moz-transform: rotate(-60deg);
+     -ms-transform: rotate(-60deg);
+     -o-transform: rotate(-60deg);
      transform: rotate(-60deg);
-    }
-
-.hexagon3 {
-    width: 200px;
-    height: 400px;
-    margin: -80px 0 0 20px;
-    }
-
-.project4 {
-    background-image: url("_assets/project4.png");
-    background-size: contain;
-    overflow: hidden;
-    visibility: hidden;
-    -webkit-transform: rotate(120deg);
-    -moz-transform: rotate(120deg);
-    -ms-transform: rotate(120deg);
-    -o-transform: rotate(120deg);
-    transform: rotate(120deg);
-    cursor: pointer;
-    position: absolute;
-    left: 72%;
-    top: 900px;
-}
-
-.project4-in1 {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    -webkit-transform: rotate(-60deg);
-    -moz-transform: rotate(-60deg);
-    -ms-transform: rotate(-60deg);
-    -o-transform: rotate(-60deg);
-    transform: rotate(-60deg);
-    }
-.project4-in2 {
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: 25%;
-    background-image: url("_assets/project4.png");
-    background-size: contain;
-    visibility: visible;
-    -webkit-transform: rotate(-60deg);
-    -moz-transform: rotate(-60deg);
-    -ms-transform: rotate(-60deg);
-    -o-transform: rotate(-60deg);
+ }
+ 
+ .project2-in2 {
+     width: 100%;
+     height: 100%;
+     background-repeat: no-repeat;
+     background-position: 25%;
+     background-image: url("_assets/project2.png");
+     background-size: contain;
+     visibility: visible;
+     -webkit-transform: rotate(-60deg);
+     -moz-transform: rotate(-60deg);
+     -ms-transform: rotate(-60deg);
+     -o-transform: rotate(-60deg);
      transform: rotate(-60deg);
-    }
-
-.hexagon4 {
-    width: 200px;
-    height: 400px;
-    margin: -80px 0 0 20px;
-    }
-
-/* hexagon complete */
-
-hr {
-    width: 75%;
-    position: absolute;
-    top: 750px;
-    left: 12.5%;
-    border: 1px solid grey;
-}
+ }
+ 
+ .hexagon2 {
+     width: 200px;
+     height: 400px;
+     margin: -80px 0 0 20px;
+ }
+ 
+ .project3 {
+     background-image: url("_assets/project3.png");
+     background-size: contain;
+     overflow: hidden;
+     visibility: hidden;
+     -webkit-transform: rotate(120deg);
+     -moz-transform: rotate(120deg);
+     -ms-transform: rotate(120deg);
+     -o-transform: rotate(120deg);
+     transform: rotate(120deg);
+     cursor: pointer;
+     position: absolute;
+     left: 53%;
+     top: 900px;
+ }
+ 
+ .project3-in1 {
+     overflow: hidden;
+     width: 100%;
+     height: 100%;
+     -webkit-transform: rotate(-60deg);
+     -moz-transform: rotate(-60deg);
+     -ms-transform: rotate(-60deg);
+     -o-transform: rotate(-60deg);
+     transform: rotate(-60deg);
+ }
+ 
+ .project3-in2 {
+     width: 100%;
+     height: 100%;
+     background-repeat: no-repeat;
+     background-position: 25%;
+     background-image: url("_assets/project3.png");
+     background-size: contain;
+     visibility: visible;
+     -webkit-transform: rotate(-60deg);
+     -moz-transform: rotate(-60deg);
+     -ms-transform: rotate(-60deg);
+     -o-transform: rotate(-60deg);
+     transform: rotate(-60deg);
+ }
+ 
+ .hexagon3 {
+     width: 200px;
+     height: 400px;
+     margin: -80px 0 0 20px;
+ }
+ 
+ .project4 {
+     background-image: url("_assets/project4.png");
+     background-size: contain;
+     overflow: hidden;
+     visibility: hidden;
+     -webkit-transform: rotate(120deg);
+     -moz-transform: rotate(120deg);
+     -ms-transform: rotate(120deg);
+     -o-transform: rotate(120deg);
+     transform: rotate(120deg);
+     cursor: pointer;
+     position: absolute;
+     left: 72%;
+     top: 900px;
+ }
+ 
+ .project4-in1 {
+     overflow: hidden;
+     width: 100%;
+     height: 100%;
+     -webkit-transform: rotate(-60deg);
+     -moz-transform: rotate(-60deg);
+     -ms-transform: rotate(-60deg);
+     -o-transform: rotate(-60deg);
+     transform: rotate(-60deg);
+ }
+ 
+ .project4-in2 {
+     width: 100%;
+     height: 100%;
+     background-repeat: no-repeat;
+     background-position: 25%;
+     background-image: url("_assets/project4.png");
+     background-size: contain;
+     visibility: visible;
+     -webkit-transform: rotate(-60deg);
+     -moz-transform: rotate(-60deg);
+     -ms-transform: rotate(-60deg);
+     -o-transform: rotate(-60deg);
+     transform: rotate(-60deg);
+ }
+ 
+ .hexagon4 {
+     width: 200px;
+     height: 400px;
+     margin: -80px 0 0 20px;
+ }
+ /* hexagon complete */
+ 
+ hr {
+     width: 75%;
+     position: absolute;
+     top: 750px;
+     left: 12.5%;
+     border: 1px solid grey;
+ }
