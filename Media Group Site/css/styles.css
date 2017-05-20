@@ -40,6 +40,10 @@
      margin-left: 400px;
  }
  
+ a {
+     color: black;
+ }
+ 
  ul li {
      display: inline-block;
      vertical-align: center;
@@ -323,10 +327,30 @@
  }
  /* hexagon complete */
  
- hr {
+ hr.firsthr {
      width: 75%;
      position: absolute;
      top: 750px;
      left: 12.5%;
      border: 1px solid grey;
+ }
+ 
+ hr.proj1 {
+     width: 75%;
+     border: 1px solid grey;
+     margin: 0 auto;
+ }
+ 
+ .projdesc1 {
+     width: 200px;
+     height: 200px;
+     position: absolute;
+     left: 14%;
+     top: 1175px;
+ }
+ 
+ .projdesc1 p {
+     margin-top: 20px;
+     text-align: center;
+     height: 200px;
  }
