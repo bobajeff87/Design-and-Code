@@ -334,6 +334,8 @@
      left: 12.5%;
      border: 1px solid grey;
  }
+
+ /* project description #1 */
  
  hr.proj1 {
      width: 75%;
@@ -354,3 +356,149 @@
      text-align: center;
      height: 200px;
  }
+
+ /* project description #2 */
+
+  hr.proj2 {
+     width: 75%;
+     border: 1px solid grey;
+     margin: 0 auto;
+ }
+ 
+ .projdesc2 {
+     width: 200px;
+     height: 200px;
+     position: absolute;
+     left: 34%;
+     top: 1175px;
+ }
+ 
+ .projdesc2 p {
+     margin-top: 20px;
+     text-align: center;
+     height: 200px;
+ }
+
+ /* project description #3 */
+
+   hr.proj3 {
+     width: 75%;
+     border: 1px solid grey;
+     margin: 0 auto;
+ }
+ 
+ .projdesc3 {
+     width: 200px;
+     height: 200px;
+     position: absolute;
+     left: 54%;
+     top: 1175px;
+ }
+ 
+ .projdesc3 p {
+     margin-top: 20px;
+     text-align: center;
+     height: 200px;
+ }
+
+ /* project description #4 */
+
+   hr.proj4 {
+     width: 75%;
+     border: 1px solid grey;
+     margin: 0 auto;
+ }
+ 
+ .projdesc4 {
+     width: 200px;
+     height: 200px;
+     position: absolute;
+     left: 74%;
+     top: 1175px;
+ }
+ 
+ .projdesc4 p {
+     margin-top: 20px;
+     text-align: center;
+     height: 200px;
+ }
+
+  hr.secondhr {
+     width: 75%;
+     position: absolute;
+     top: 1350px;
+     left: 12.5%;
+     border: 1px solid grey;
+ }
+
+ .services {
+     position: absolute;
+     top: 1400px;
+     height: 600px;
+     width: 100%;
+     opacity: 0.8;
+ }
+
+ .services p {
+     position: absolute;
+     top: 1450;
+     left: 15%;
+     font-size: 12pt;
+ }
+
+ .webdesignicon {
+     position: absolute;
+     top: 100px;
+     left: 20%;
+ }
+
+ .seoicon {
+     position: absolute;
+     top: 250px;
+     left: 20%;
+ }
+
+ .appsicon {
+     position: absolute;
+     top: 400px;
+     left: 20%;
+ }
+
+  .photoicon {
+     position: absolute;
+     top: 100px;
+     left: 55%;
+ }
+
+  .responsiveicon {
+     position: absolute;
+     top: 250px;
+     left: 55%;
+ }
+
+ .socialicon {
+     position: absolute;
+     top: 400px;
+     left: 55%;
+ }
+
+ .webdesign h4 {
+     position: absolute;
+     top: 75px;
+     left: 27%;
+ }
+
+ .webdesign p {
+     position: absolute;
+     left: 27%;
+     top: 125px;
+     width: 300px;
+ }
+
+.webdesign hr {
+    width: 300px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 100px;
+    left: 27%;
+}
