@@ -649,7 +649,15 @@ img.reviewquote {
 .blogs {
     height: 800px;
     width: 100%;
-    background-color: pink;
+    background-color: white;
     position: absolute;
     top: 2250px;
+}
+
+footer {
+    background-color: #3a3a3a;
+    height: 125px;
+    width: 100%;
+    position: absolute;
+    top: 3050px;
 }
