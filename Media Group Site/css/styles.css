@@ -607,3 +607,49 @@
     top: 400px;
     left: 62%;
 }
+
+.review {
+    height: 300px;
+    width: 100%;
+    background-color: #eaeadf;
+    position: absolute;
+    top: 1950px;
+}
+
+img.reviewquote {
+    position: absolute;
+    left: 47%;
+    top: 10px;
+    margin: 0 auto;
+}
+
+.review p {
+    margin: 0 auto;
+    width: 700px;
+    font-size: 18pt;
+    text-align: center;
+    position: absolute;
+    left: 27.5%;
+    top: 125px;
+}
+
+.review h5 {
+    position: absolute;
+    top: 250px;
+    left: 60%;
+}
+
+.reviewhr {
+    border: 1px solid #a82743;
+    position: absolute;
+    width: 100%;
+    top: 280px;
+}
+
+.blogs {
+    height: 800px;
+    width: 100%;
+    background-color: pink;
+    position: absolute;
+    top: 2252px;
+}
