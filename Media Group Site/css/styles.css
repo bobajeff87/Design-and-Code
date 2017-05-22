@@ -54,9 +54,6 @@
      content: "|";
  }
  
- .popUp {
-     margin: 0 auto;
- }
  
  .design {
      background-color: #5c323e;
@@ -116,15 +113,46 @@
      text-align: center;
  }
  
- .popupp {
+ .designpopup {
      background-color: white;
      height: 300px;
      width: 300px;
      border-top: 1px solid #deb8bc;
      border-left: 1px solid #deb8bc;
      border-right: 1px solid #deb8bc;
+     border-bottom: 4px solid #5c323e;
      position: absolute;
      left: 15%;
+     top: 300px;
+     text-align: center;
+     visibility: hidden;
+ }
+
+  .photopopup {
+     background-color: white;
+     height: 300px;
+     width: 300px;
+     border-top: 1px solid #deb8bc;
+     border-left: 1px solid #deb8bc;
+     border-right: 1px solid #deb8bc;
+     border-bottom: 4px solid #A52A45;
+     position: absolute;
+     left: 39.5%;
+     top: 300px;
+     text-align: center;
+     visibility: hidden;
+ }
+
+   .brandingpopup {
+     background-color: white;
+     height: 300px;
+     width: 300px;
+     border-top: 1px solid #deb8bc;
+     border-left: 1px solid #deb8bc;
+     border-right: 1px solid #deb8bc;
+     border-bottom: 4px solid #e15e32;
+     position: absolute;
+     left: 64.5%;
      top: 300px;
      text-align: center;
      visibility: hidden;

@@ -1,10 +1,26 @@
 $(document).ready(function() {
 
     $(".design").hover(function() {
-        $(".popupp").css("visibility", "visible");
+        $(".designpopup").css("visibility", "visible");
     });
 
     $(".design").mouseleave(function() {
-        $(".popupp").css("visibility", "hidden");
+        $(".designpopup").css("visibility", "hidden");
+    });
+
+    $(".photography").hover(function() {
+        $(".photopopup").css("visibility", "visible");
+    });
+
+    $(".photography").mouseleave(function() {
+        $(".photopopup").css("visibility", "hidden");
+    });
+
+    $(".branding").hover(function() {
+        $(".brandingpopup").css("visibility", "visible");
+    });
+
+    $(".branding").mouseleave(function() {
+        $(".brandingpopup").css("visibility", "hidden");
     });
 });
