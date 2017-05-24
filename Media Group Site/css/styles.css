@@ -689,3 +689,37 @@ footer {
     position: absolute;
     top: 3050px;
 }
+
+.blogs {
+    position: absolute;
+}
+
+.blogs h4 {
+    position: absolute;
+    top: 25px;
+    left: 10%;
+}
+
+.blog1 {
+    position: absolute;
+    top: 125px;
+    left: 15%;
+}
+
+.blog2 {
+    position: absolute;
+    top: 425px;
+    left: 15%;
+}
+
+.blog3 {
+    position: absolute;
+    top: 125px;
+    left: 52%;
+}
+
+.blog4 {
+    position: absolute;
+    top: 425px;
+    left: 52%;
+}
