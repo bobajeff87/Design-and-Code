@@ -1,4 +1,6 @@
- @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
  * {
      margin: 0px;
      padding: 0px;
@@ -107,9 +109,14 @@
  }
  
  .design h3,
- .branding h3,
+ .branding h3 {
+     text-align: center;
+ }
+
  .photography h3 {
      text-align: center;
+     clear: left;
+     margin-left: -35px;
  }
  
  .designpopup {
@@ -647,6 +654,7 @@
  }
  
  .review p {
+     font-family: 'Slabo 27px', serif;
      margin: 0 auto;
      width: 700px;
      font-size: 18pt;
@@ -709,6 +717,39 @@
      position: absolute;
      top: 425px;
      left: 52%;
+ }
+
+ .blogger1 {
+     height: 100px;
+     width: 100px;
+     position: absolute;
+     left: 15%;
+     top: 300px;
+ }
+
+ .blogger2 {
+     height: 100px;
+     width: 100px;
+     position: absolute;
+     left: 52%;
+     top: 300px;
+     z-index: 2;
+ }
+
+  .blogger3 {
+     height: 100px;
+     width: 100px;
+     position: absolute;
+     left: 15%;
+     top: 600px;
+ }
+
+ .blogger4 {
+     height: 100px;
+     width: 100px;
+     position: absolute;
+     left: 52%;
+     top: 600px;
  }
  
  footer {
