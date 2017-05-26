@@ -45,14 +45,24 @@
  .nav a {
      color: black;
  }
+
+ .nav a:hover {
+     text-decoration: none;
+ }
  
  .nav ul li {
      display: inline-block;
      vertical-align: center;
      padding-right: 40px;
  }
+
+ .nav img {
+     padding-right: 10px;
+     padding-left: 10px;
+ }
  
- ul::after {
+ .features::after {
+     margin-left: 15px;
      content: "|";
  }
  
@@ -788,10 +798,19 @@
  
  footer ul li {
      display: inline-block;
-     vertical-align: center;
      margin-right: 25px;
  }
  
  footer ul a {
      color: white;
+ }
+
+ footer a:hover {
+     text-decoration: none;
+     color: white;
+ }
+
+ footer ul img {
+     margin-right: 10px;
+     margin-left: 20px;
  }
