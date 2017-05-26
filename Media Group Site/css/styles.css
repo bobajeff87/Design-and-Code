@@ -751,6 +751,30 @@
      left: 52%;
      top: 600px;
  }
+
+ .matahealy {
+     position: absolute;
+     top: 675px;
+     left: 59%;
+ }
+
+ .bradgrosh {
+     position: absolute;
+     top: 375px;
+     left: 59%;
+ }
+
+ .patrickpool {
+     position: absolute;
+     top: 375px;
+     left: 22%;
+ }
+
+ .tomjames {
+     position: absolute;
+     top: 675px;
+     left: 22%;
+ }
  
  footer {
      background-color: #3a3a3a;
