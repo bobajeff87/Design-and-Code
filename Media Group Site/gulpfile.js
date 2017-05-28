@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var uglify = require('gulp-uglify');
 var autoprefixer = require('gulp-autoprefixer');
 var browsersync = require('browser-sync').create();
-var minify = require('clean-css');
+var minify = require('gulp-clean-css');
 
 // uglify js
 
