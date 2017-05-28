@@ -5,5 +5,32 @@
 }
 
 header {
-    background-image: url('')
+    height: 450px;
+    background-image: url('_assets/Greenland-header-2.png')
+}
+
+.header-aside {
+    width: 300px;
+    height: 450px;
+    background-color: #3976ad;
+    opacity: 0.7;
+    position: absolute;
+    left: -300px;
+    line-height: 450px;
+}
+
+.navbar {
+    width: 100px;
+    height: 475px;
+    background-color: #304d5d;
+    opacity: 1;
+    position: absolute;
+    left: 300px;
+}
+
+.asideimg {
+    height: 100px;
+    width: 100px;
+    margin-left: 35%;
+    opacity: 1.0;
 }
