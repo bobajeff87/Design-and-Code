@@ -1,834 +1,845 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
 
- * {
-     margin: 0px;
-     padding: 0px;
-     border: 0px;
- }
- 
- .header {
-     background-image: url("_assets/01bike.jpg");
-     background-size: 100% 100%;
-     height: 600px;
- }
- 
- .header p {
-     font-size: 80pt;
-     color: white;
-     text-align: center;
-     line-height: 600px;
-     font-family: 'Fjalla One', sans-serif;
-     letter-spacing: 8px;
- }
- 
- .logo {
-     position: absolute;
-     left: 250px;
-     top: 25px;
- }
- 
- .nav {
-     background-color: white;
-     text-align: center;
-     opacity: 0.85;
-     height: 75px;
-     line-height: 75px;
-     width: 75%;
-     margin: 0 auto;
- }
- 
- .nav ul {
-     margin-left: 400px;
- }
- 
- .nav a {
-     color: black;
- }
+.header {
+    background-image: url("_assets/01bike.jpg");
+    background-size: 100% 100%;
+    height: 600px;
+}
 
- .nav a:hover {
-     text-decoration: none;
- }
- 
- .nav ul li {
-     display: inline-block;
-     vertical-align: center;
-     padding-right: 40px;
- }
+.header p {
+    font-size: 80pt;
+    color: white;
+    text-align: center;
+    line-height: 600px;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 8px;
+}
 
- .nav img {
-     padding-right: 10px;
-     padding-left: 10px;
- }
- 
- .features::after {
-     margin-left: 15px;
-     content: "|";
- }
- 
- .design {
-     background-color: #5c323e;
-     width: 125px;
-     height: 125px;
-     -moz-border-radius: 75px;
-     -webkit-border-radius: 75px;
-     border-radius: 75px;
-     position: absolute;
-     left: 20%;
-     line-height: 125px;
-     top: 550px;
-     border: 3px solid #deb8bc;
- }
- 
- .photography {
-     background-color: #A52A45;
-     width: 125px;
-     height: 125px;
-     -moz-border-radius: 75px;
-     -webkit-border-radius: 75px;
-     border-radius: 75px;
-     line-height: 125px;
-     margin: 0 auto;
-     position: absolute;
-     left: 45%;
-     top: 550px;
-     border: 3px solid #deb8bc;
- }
- 
- .branding {
-     background-color: #e15e32;
-     width: 125px;
-     height: 125px;
-     -moz-border-radius: 75px;
-     -webkit-border-radius: 75px;
-     border-radius: 75px;
-     position: absolute;
-     left: 70%;
-     line-height: 125px;
-     top: 550px;
-     border: 3px solid #deb8bc;
- }
- 
- .design p,
- .photography p,
- .branding p {
-     color: white;
-     font-size: 34pt;
-     text-align: center;
-     font-family: 'Fjalla One', sans-serif;
- }
- 
- .design h3,
- .branding h3 {
-     text-align: center;
- }
+.logo {
+    position: absolute;
+    left: 250px;
+    top: 25px;
+}
 
- .photography h3 {
-     text-align: center;
-     clear: left;
-     margin-left: -35px;
- }
- 
- .designpopup {
-     background-color: white;
-     height: 300px;
-     width: 300px;
-     border-top: 1px solid #deb8bc;
-     border-left: 1px solid #deb8bc;
-     border-right: 1px solid #deb8bc;
-     border-bottom: 4px solid #5c323e;
-     position: absolute;
-     left: 15%;
-     top: 300px;
-     text-align: center;
-     visibility: hidden;
- }
+.nav {
+    background-color: white;
+    text-align: center;
+    opacity: 0.85;
+    height: 75px;
+    line-height: 75px;
+    width: 75%;
+    margin: 0 auto;
+}
 
- .designpic {
-     border-bottom: 2px solid #5c323e;    
- }
- 
- .photopopup {
-     background-color: white;
-     height: 300px;
-     width: 300px;
-     border-top: 1px solid #deb8bc;
-     border-left: 1px solid #deb8bc;
-     border-right: 1px solid #deb8bc;
-     border-bottom: 4px solid #A52A45;
-     position: absolute;
-     left: 39.5%;
-     top: 300px;
-     text-align: center;
-     visibility: hidden;
- }
+.nav ul {
+    margin-left: 400px;
+}
 
- .photopic {
-     border-bottom: 2px solid #A52A45;
- }
- 
- .brandingpopup {
-     background-color: white;
-     height: 300px;
-     width: 300px;
-     border-top: 1px solid #deb8bc;
-     border-left: 1px solid #deb8bc;
-     border-right: 1px solid #deb8bc;
-     border-bottom: 4px solid #e15e32;
-     position: absolute;
-     left: 64.5%;
-     top: 300px;
-     text-align: center;
-     visibility: hidden;
- }
+.nav a {
+    color: black;
+}
 
- .brandingpic {
-     border-bottom: 2px solid #e15e32;
- }
- 
- .projects {
-     height: 400px;
- }
+.nav a:hover {
+    text-decoration: none;
+}
 
- .projects h4 {
-     position: absolute;
-     left: 15%;
-     top: 800px;
- }
- /* hexagons */
- 
- .project1 {
-     background-image: url("_assets/project1.png");
-     background-size: contain;
-     overflow: hidden;
-     visibility: hidden;
-     -webkit-transform: rotate(120deg);
-     -moz-transform: rotate(120deg);
-     -ms-transform: rotate(120deg);
-     -o-transform: rotate(120deg);
-     transform: rotate(120deg);
-     cursor: pointer;
-     position: absolute;
-     left: 13%;
-     top: 900px;
- }
- 
- .project1-in1 {
-     overflow: hidden;
-     width: 100%;
-     height: 100%;
-     -webkit-transform: rotate(-60deg);
-     -moz-transform: rotate(-60deg);
-     -ms-transform: rotate(-60deg);
-     -o-transform: rotate(-60deg);
-     transform: rotate(-60deg);
- }
- 
- .project1-in2 {
-     width: 100%;
-     height: 100%;
-     background-repeat: no-repeat;
-     background-position: 25%;
-     background-image: url("_assets/project1.png");
-     background-size: contain;
-     visibility: visible;
-     -webkit-transform: rotate(-60deg);
-     -moz-transform: rotate(-60deg);
-     -ms-transform: rotate(-60deg);
-     -o-transform: rotate(-60deg);
-     transform: rotate(-60deg);
- }
- 
- .hexagon1 {
-     width: 200px;
-     height: 400px;
-     margin: -80px 0 0 20px;
- }
- 
- .project2 {
-     background-image: url("_assets/project2.png");
-     background-size: contain;
-     overflow: hidden;
-     visibility: hidden;
-     -webkit-transform: rotate(120deg);
-     -moz-transform: rotate(120deg);
-     -ms-transform: rotate(120deg);
-     -o-transform: rotate(120deg);
-     transform: rotate(120deg);
-     cursor: pointer;
-     position: absolute;
-     left: 33%;
-     top: 900px;
- }
- 
- .project2-in1 {
-     overflow: hidden;
-     width: 100%;
-     height: 100%;
-     -webkit-transform: rotate(-60deg);
-     -moz-transform: rotate(-60deg);
-     -ms-transform: rotate(-60deg);
-     -o-transform: rotate(-60deg);
-     transform: rotate(-60deg);
- }
- 
- .project2-in2 {
-     width: 100%;
-     height: 100%;
-     background-repeat: no-repeat;
-     background-position: 25%;
-     background-image: url("_assets/project2.png");
-     background-size: contain;
-     visibility: visible;
-     -webkit-transform: rotate(-60deg);
-     -moz-transform: rotate(-60deg);
-     -ms-transform: rotate(-60deg);
-     -o-transform: rotate(-60deg);
-     transform: rotate(-60deg);
- }
- 
- .hexagon2 {
-     width: 200px;
-     height: 400px;
-     margin: -80px 0 0 20px;
- }
- 
- .project3 {
-     background-image: url("_assets/project3.png");
-     background-size: contain;
-     overflow: hidden;
-     visibility: hidden;
-     -webkit-transform: rotate(120deg);
-     -moz-transform: rotate(120deg);
-     -ms-transform: rotate(120deg);
-     -o-transform: rotate(120deg);
-     transform: rotate(120deg);
-     cursor: pointer;
-     position: absolute;
-     left: 53%;
-     top: 900px;
- }
- 
- .project3-in1 {
-     overflow: hidden;
-     width: 100%;
-     height: 100%;
-     -webkit-transform: rotate(-60deg);
-     -moz-transform: rotate(-60deg);
-     -ms-transform: rotate(-60deg);
-     -o-transform: rotate(-60deg);
-     transform: rotate(-60deg);
- }
- 
- .project3-in2 {
-     width: 100%;
-     height: 100%;
-     background-repeat: no-repeat;
-     background-position: 25%;
-     background-image: url("_assets/project3.png");
-     background-size: contain;
-     visibility: visible;
-     -webkit-transform: rotate(-60deg);
-     -moz-transform: rotate(-60deg);
-     -ms-transform: rotate(-60deg);
-     -o-transform: rotate(-60deg);
-     transform: rotate(-60deg);
- }
- 
- .hexagon3 {
-     width: 200px;
-     height: 400px;
-     margin: -80px 0 0 20px;
- }
- 
- .project4 {
-     background-image: url("_assets/project4.png");
-     background-size: contain;
-     overflow: hidden;
-     visibility: hidden;
-     -webkit-transform: rotate(120deg);
-     -moz-transform: rotate(120deg);
-     -ms-transform: rotate(120deg);
-     -o-transform: rotate(120deg);
-     transform: rotate(120deg);
-     cursor: pointer;
-     position: absolute;
-     left: 72%;
-     top: 900px;
- }
- 
- .project4-in1 {
-     overflow: hidden;
-     width: 100%;
-     height: 100%;
-     -webkit-transform: rotate(-60deg);
-     -moz-transform: rotate(-60deg);
-     -ms-transform: rotate(-60deg);
-     -o-transform: rotate(-60deg);
-     transform: rotate(-60deg);
- }
- 
- .project4-in2 {
-     width: 100%;
-     height: 100%;
-     background-repeat: no-repeat;
-     background-position: 25%;
-     background-image: url("_assets/project4.png");
-     background-size: contain;
-     visibility: visible;
-     -webkit-transform: rotate(-60deg);
-     -moz-transform: rotate(-60deg);
-     -ms-transform: rotate(-60deg);
-     -o-transform: rotate(-60deg);
-     transform: rotate(-60deg);
- }
- 
- .hexagon4 {
-     width: 200px;
-     height: 400px;
-     margin: -80px 0 0 20px;
- }
- /* hexagon complete */
- 
- hr.firsthr {
-     width: 75%;
-     position: absolute;
-     top: 750px;
-     left: 12.5%;
-     border: 1px solid grey;
- }
- /* project description #1 */
- 
- hr.proj1 {
-     width: 75%;
-     border: 1px solid grey;
-     margin: 0 auto;
- }
- 
- .projdesc1 {
-     width: 200px;
-     height: 200px;
-     position: absolute;
-     left: 14%;
-     top: 1175px;
- }
- 
- .projdesc1 p {
-     margin-top: 20px;
-     text-align: center;
-     height: 200px;
- }
- /* project description #2 */
- 
- hr.proj2 {
-     width: 75%;
-     border: 1px solid grey;
-     margin: 0 auto;
- }
- 
- .projdesc2 {
-     width: 200px;
-     height: 200px;
-     position: absolute;
-     left: 34%;
-     top: 1175px;
- }
- 
- .projdesc2 p {
-     margin-top: 20px;
-     text-align: center;
-     height: 200px;
- }
- /* project description #3 */
- 
- hr.proj3 {
-     width: 75%;
-     border: 1px solid grey;
-     margin: 0 auto;
- }
- 
- .projdesc3 {
-     width: 200px;
-     height: 200px;
-     position: absolute;
-     left: 54%;
-     top: 1175px;
- }
- 
- .projdesc3 p {
-     margin-top: 20px;
-     text-align: center;
-     height: 200px;
- }
- /* project description #4 */
- 
- hr.proj4 {
-     width: 75%;
-     border: 1px solid grey;
-     margin: 0 auto;
- }
- 
- .projdesc4 {
-     width: 200px;
-     height: 200px;
-     position: absolute;
-     left: 74%;
-     top: 1175px;
- }
- 
- .projdesc4 p {
-     margin-top: 20px;
-     text-align: center;
-     height: 200px;
- }
- 
- hr.secondhr {
-     width: 75%;
-     position: absolute;
-     top: 1350px;
-     left: 12.5%;
-     border: 1px solid grey;
- }
- 
- .services {
-     position: absolute;
-     top: 1400px;
-     height: 600px;
-     width: 100%;
-     opacity: 0.8;
- }
- 
- .services h4 {
-     position: absolute;
-     top: 1450;
-     left: 15%;
- }
- 
- .webdesignicon {
-     position: absolute;
-     top: 100px;
-     left: 20%;
- }
- 
- .seoicon {
-     position: absolute;
-     top: 250px;
-     left: 20%;
- }
- 
- .appsicon {
-     position: absolute;
-     top: 400px;
-     left: 20%;
- }
- 
- .photoicon {
-     position: absolute;
-     top: 100px;
-     left: 55%;
- }
- 
- .responsiveicon {
-     position: absolute;
-     top: 250px;
-     left: 55%;
- }
- 
- .socialicon {
-     position: absolute;
-     top: 400px;
-     left: 55%;
- }
- 
- .webdesign h4 {
-     position: absolute;
-     top: 75px;
-     left: 27%;
- }
- 
- .webdesign p {
-     position: absolute;
-     left: 27%;
-     top: 125px;
-     width: 300px;
- }
- 
- .webdesign hr {
-     width: 300px;
-     border: 1px solid grey;
-     position: absolute;
-     top: 100px;
-     left: 27%;
- }
- 
- .seo h4 {
-     position: absolute;
-     top: 225px;
-     left: 27%;
- }
- 
- .seo p {
-     position: absolute;
-     left: 27%;
-     top: 275px;
-     width: 300px;
- }
- 
- .seo hr {
-     width: 300px;
-     border: 1px solid grey;
-     position: absolute;
-     top: 250px;
-     left: 27%;
- }
- 
- .apps h4 {
-     position: absolute;
-     top: 375px;
-     left: 27%;
- }
- 
- .apps p {
-     position: absolute;
-     left: 27%;
-     top: 425px;
-     width: 300px;
- }
- 
- .apps hr {
-     width: 300px;
-     border: 1px solid grey;
-     position: absolute;
-     top: 400px;
-     left: 27%;
- }
- 
- .photo h4 {
-     position: absolute;
-     top: 75px;
-     left: 62%;
- }
- 
- .photo p {
-     position: absolute;
-     left: 62%;
-     top: 125px;
-     width: 300px;
- }
- 
- .photo hr {
-     width: 300px;
-     border: 1px solid grey;
-     position: absolute;
-     top: 100px;
-     left: 62%;
- }
- 
- .responsive h4 {
-     position: absolute;
-     top: 225px;
-     left: 62%;
- }
- 
- .responsive p {
-     position: absolute;
-     left: 62%;
-     top: 275px;
-     width: 300px;
- }
- 
- .responsive hr {
-     width: 300px;
-     border: 1px solid grey;
-     position: absolute;
-     top: 250px;
-     left: 62%;
- }
- 
- .social h4 {
-     position: absolute;
-     top: 375px;
-     left: 62%;
- }
- 
- .social p {
-     position: absolute;
-     left: 62%;
-     top: 425px;
-     width: 300px;
- }
- 
- .social hr {
-     width: 300px;
-     border: 1px solid grey;
-     position: absolute;
-     top: 400px;
-     left: 62%;
- }
- 
- .review {
-     height: 300px;
-     width: 100%;
-     background-color: #eaeadf;
-     position: absolute;
-     top: 1950px;
- }
- 
- img.reviewquote {
-     position: absolute;
-     left: 47%;
-     top: 10px;
-     margin: 0 auto;
- }
- 
- .review p {
-     font-family: 'Slabo 27px', serif;
-     margin: 0 auto;
-     width: 700px;
-     font-size: 18pt;
-     text-align: center;
-     position: absolute;
-     left: 27.5%;
-     top: 125px;
- }
- 
- .review h5 {
-     position: absolute;
-     top: 250px;
-     left: 60%;
- }
- 
- .reviewhr {
-     border: 1px solid #a82743;
-     position: absolute;
-     width: 100%;
-     top: 278px;
- }
- 
- .blogs {
-     height: 800px;
-     width: 100%;
-     background-color: white;
-     position: absolute;
-     top: 2250px;
- }
- 
- .blogs {
-     position: absolute;
- }
- 
- .blogs h4 {
-     position: absolute;
-     top: 25px;
-     left: 10%;
- }
- 
- .blog1 {
-     position: absolute;
-     top: 125px;
-     left: 15%;
- }
- 
- .blog2 {
-     position: absolute;
-     top: 425px;
-     left: 15%;
- }
- 
- .blog3 {
-     position: absolute;
-     top: 125px;
-     left: 52%;
- }
- 
- .blog4 {
-     position: absolute;
-     top: 425px;
-     left: 52%;
- }
+.nav ul li {
+    display: inline-block;
+    vertical-align: center;
+    padding-right: 40px;
+}
 
- .blogger1 {
-     height: 100px;
-     width: 100px;
-     position: absolute;
-     left: 15%;
-     top: 300px;
- }
+.nav img {
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
- .blogger2 {
-     height: 100px;
-     width: 100px;
-     position: absolute;
-     left: 52%;
-     top: 300px;
-     z-index: 2;
- }
+.features::after {
+    margin-left: 15px;
+    content: "|";
+}
 
-  .blogger3 {
-     height: 100px;
-     width: 100px;
-     position: absolute;
-     left: 15%;
-     top: 600px;
- }
+.design {
+    background-color: #5c323e;
+    width: 125px;
+    height: 125px;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+    position: absolute;
+    left: 20%;
+    line-height: 125px;
+    top: 550px;
+    border: 3px solid #deb8bc;
+}
 
- .blogger4 {
-     height: 100px;
-     width: 100px;
-     position: absolute;
-     left: 52%;
-     top: 600px;
- }
+.photography {
+    background-color: #A52A45;
+    width: 125px;
+    height: 125px;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+    line-height: 125px;
+    margin: 0 auto;
+    position: absolute;
+    left: 45%;
+    top: 550px;
+    border: 3px solid #deb8bc;
+}
 
- .matahealy {
-     position: absolute;
-     top: 675px;
-     left: 59%;
- }
+.branding {
+    background-color: #e15e32;
+    width: 125px;
+    height: 125px;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+    position: absolute;
+    left: 70%;
+    line-height: 125px;
+    top: 550px;
+    border: 3px solid #deb8bc;
+}
 
- .bradgrosh {
-     position: absolute;
-     top: 375px;
-     left: 59%;
- }
+.design p,
+.photography p,
+.branding p {
+    color: white;
+    font-size: 34pt;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
 
- .patrickpool {
-     position: absolute;
-     top: 375px;
-     left: 22%;
- }
+.design h3,
+.branding h3 {
+    text-align: center;
+}
 
- .tomjames {
-     position: absolute;
-     top: 675px;
-     left: 22%;
- }
- 
- footer {
-     background-color: #3a3a3a;
-     height: 125px;
-     width: 100%;
-     position: absolute;
-     top: 3050px;
-     line-height: 125px;
-     text-align: center;
- }
- 
- footer ul li {
-     display: inline-block;
-     margin-right: 25px;
- }
- 
- footer ul a {
-     color: white;
- }
+.photography h3 {
+    text-align: center;
+    clear: left;
+    margin-left: -35px;
+}
 
- footer a:hover {
-     text-decoration: none;
-     color: white;
- }
+.designpopup {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-top: 1px solid #deb8bc;
+    border-left: 1px solid #deb8bc;
+    border-right: 1px solid #deb8bc;
+    border-bottom: 4px solid #5c323e;
+    position: absolute;
+    left: 15%;
+    top: 300px;
+    text-align: center;
+    visibility: hidden;
+}
 
- footer ul img {
-     margin-right: 10px;
-     margin-left: 20px;
- }
+.designpic {
+    border-bottom: 2px solid #5c323e;
+}
+
+.photopopup {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-top: 1px solid #deb8bc;
+    border-left: 1px solid #deb8bc;
+    border-right: 1px solid #deb8bc;
+    border-bottom: 4px solid #A52A45;
+    position: absolute;
+    left: 39.5%;
+    top: 300px;
+    text-align: center;
+    visibility: hidden;
+}
+
+.photopic {
+    border-bottom: 2px solid #A52A45;
+}
+
+.brandingpopup {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-top: 1px solid #deb8bc;
+    border-left: 1px solid #deb8bc;
+    border-right: 1px solid #deb8bc;
+    border-bottom: 4px solid #e15e32;
+    position: absolute;
+    left: 64.5%;
+    top: 300px;
+    text-align: center;
+    visibility: hidden;
+}
+
+.brandingpic {
+    border-bottom: 2px solid #e15e32;
+}
+
+.projects {
+    height: 400px;
+}
+
+.projects h4 {
+    position: absolute;
+    left: 15%;
+    top: 800px;
+}
+
+
+/* hexagons */
+
+.project1 {
+    background-image: url("_assets/project1.png");
+    background-size: contain;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+    cursor: pointer;
+    position: absolute;
+    left: 13%;
+    top: 900px;
+}
+
+.project1-in1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+
+.project1-in2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-image: url("_assets/project1.png");
+    background-size: contain;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+
+.hexagon1 {
+    width: 200px;
+    height: 400px;
+    margin: -80px 0 0 20px;
+}
+
+.project2 {
+    background-image: url("_assets/project2.png");
+    background-size: contain;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+    cursor: pointer;
+    position: absolute;
+    left: 33%;
+    top: 900px;
+}
+
+.project2-in1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+
+.project2-in2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-image: url("_assets/project2.png");
+    background-size: contain;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+
+.hexagon2 {
+    width: 200px;
+    height: 400px;
+    margin: -80px 0 0 20px;
+}
+
+.project3 {
+    background-image: url("_assets/project3.png");
+    background-size: contain;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+    cursor: pointer;
+    position: absolute;
+    left: 53%;
+    top: 900px;
+}
+
+.project3-in1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+
+.project3-in2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-image: url("_assets/project3.png");
+    background-size: contain;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+
+.hexagon3 {
+    width: 200px;
+    height: 400px;
+    margin: -80px 0 0 20px;
+}
+
+.project4 {
+    background-image: url("_assets/project4.png");
+    background-size: contain;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+    cursor: pointer;
+    position: absolute;
+    left: 72%;
+    top: 900px;
+}
+
+.project4-in1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+
+.project4-in2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-image: url("_assets/project4.png");
+    background-size: contain;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+
+.hexagon4 {
+    width: 200px;
+    height: 400px;
+    margin: -80px 0 0 20px;
+}
+
+
+/* hexagon complete */
+
+hr.firsthr {
+    width: 75%;
+    position: absolute;
+    top: 750px;
+    left: 12.5%;
+    border: 1px solid grey;
+}
+
+
+/* project description #1 */
+
+hr.proj1 {
+    width: 75%;
+    border: 1px solid grey;
+    margin: 0 auto;
+}
+
+.projdesc1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 14%;
+    top: 1175px;
+}
+
+.projdesc1 p {
+    margin-top: 20px;
+    text-align: center;
+    height: 200px;
+}
+
+
+/* project description #2 */
+
+hr.proj2 {
+    width: 75%;
+    border: 1px solid grey;
+    margin: 0 auto;
+}
+
+.projdesc2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 34%;
+    top: 1175px;
+}
+
+.projdesc2 p {
+    margin-top: 20px;
+    text-align: center;
+    height: 200px;
+}
+
+
+/* project description #3 */
+
+hr.proj3 {
+    width: 75%;
+    border: 1px solid grey;
+    margin: 0 auto;
+}
+
+.projdesc3 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 54%;
+    top: 1175px;
+}
+
+.projdesc3 p {
+    margin-top: 20px;
+    text-align: center;
+    height: 200px;
+}
+
+
+/* project description #4 */
+
+hr.proj4 {
+    width: 75%;
+    border: 1px solid grey;
+    margin: 0 auto;
+}
+
+.projdesc4 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 74%;
+    top: 1175px;
+}
+
+.projdesc4 p {
+    margin-top: 20px;
+    text-align: center;
+    height: 200px;
+}
+
+hr.secondhr {
+    width: 75%;
+    position: absolute;
+    top: 1350px;
+    left: 12.5%;
+    border: 1px solid grey;
+}
+
+.services {
+    position: absolute;
+    top: 1400px;
+    height: 600px;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.services h4 {
+    position: absolute;
+    top: 1450;
+    left: 15%;
+}
+
+.webdesignicon {
+    position: absolute;
+    top: 100px;
+    left: 20%;
+}
+
+.seoicon {
+    position: absolute;
+    top: 250px;
+    left: 20%;
+}
+
+.appsicon {
+    position: absolute;
+    top: 400px;
+    left: 20%;
+}
+
+.photoicon {
+    position: absolute;
+    top: 100px;
+    left: 55%;
+}
+
+.responsiveicon {
+    position: absolute;
+    top: 250px;
+    left: 55%;
+}
+
+.socialicon {
+    position: absolute;
+    top: 400px;
+    left: 55%;
+}
+
+.webdesign h4 {
+    position: absolute;
+    top: 75px;
+    left: 27%;
+}
+
+.webdesign p {
+    position: absolute;
+    left: 27%;
+    top: 125px;
+    width: 300px;
+}
+
+.webdesign hr {
+    width: 300px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 100px;
+    left: 27%;
+}
+
+.seo h4 {
+    position: absolute;
+    top: 225px;
+    left: 27%;
+}
+
+.seo p {
+    position: absolute;
+    left: 27%;
+    top: 275px;
+    width: 300px;
+}
+
+.seo hr {
+    width: 300px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 250px;
+    left: 27%;
+}
+
+.apps h4 {
+    position: absolute;
+    top: 375px;
+    left: 27%;
+}
+
+.apps p {
+    position: absolute;
+    left: 27%;
+    top: 425px;
+    width: 300px;
+}
+
+.apps hr {
+    width: 300px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 400px;
+    left: 27%;
+}
+
+.photo h4 {
+    position: absolute;
+    top: 75px;
+    left: 62%;
+}
+
+.photo p {
+    position: absolute;
+    left: 62%;
+    top: 125px;
+    width: 300px;
+}
+
+.photo hr {
+    width: 300px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 100px;
+    left: 62%;
+}
+
+.responsive h4 {
+    position: absolute;
+    top: 225px;
+    left: 62%;
+}
+
+.responsive p {
+    position: absolute;
+    left: 62%;
+    top: 275px;
+    width: 300px;
+}
+
+.responsive hr {
+    width: 300px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 250px;
+    left: 62%;
+}
+
+.social h4 {
+    position: absolute;
+    top: 375px;
+    left: 62%;
+}
+
+.social p {
+    position: absolute;
+    left: 62%;
+    top: 425px;
+    width: 300px;
+}
+
+.social hr {
+    width: 300px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 400px;
+    left: 62%;
+}
+
+.review {
+    height: 300px;
+    width: 100%;
+    background-color: #eaeadf;
+    position: absolute;
+    top: 1950px;
+}
+
+img.reviewquote {
+    position: absolute;
+    left: 47%;
+    top: 10px;
+    margin: 0 auto;
+}
+
+.review p {
+    font-family: 'Slabo 27px', serif;
+    margin: 0 auto;
+    width: 700px;
+    font-size: 18pt;
+    text-align: center;
+    position: absolute;
+    left: 27.5%;
+    top: 125px;
+}
+
+.review h5 {
+    position: absolute;
+    top: 250px;
+    left: 60%;
+}
+
+.reviewhr {
+    border: 1px solid #a82743;
+    position: absolute;
+    width: 100%;
+    top: 278px;
+}
+
+.blogs {
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 2250px;
+}
+
+.blogs {
+    position: absolute;
+}
+
+.blogs h4 {
+    position: absolute;
+    top: 25px;
+    left: 10%;
+}
+
+.blog1 {
+    position: absolute;
+    top: 125px;
+    left: 15%;
+}
+
+.blog2 {
+    position: absolute;
+    top: 425px;
+    left: 15%;
+}
+
+.blog3 {
+    position: absolute;
+    top: 125px;
+    left: 52%;
+}
+
+.blog4 {
+    position: absolute;
+    top: 425px;
+    left: 52%;
+}
+
+.blogger1 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 15%;
+    top: 300px;
+}
+
+.blogger2 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 52%;
+    top: 300px;
+    z-index: 2;
+}
+
+.blogger3 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 15%;
+    top: 600px;
+}
+
+.blogger4 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 52%;
+    top: 600px;
+}
+
+.matahealy {
+    position: absolute;
+    top: 675px;
+    left: 59%;
+}
+
+.bradgrosh {
+    position: absolute;
+    top: 375px;
+    left: 59%;
+}
+
+.patrickpool {
+    position: absolute;
+    top: 375px;
+    left: 22%;
+}
+
+.tomjames {
+    position: absolute;
+    top: 675px;
+    left: 22%;
+}
+
+footer {
+    background-color: #3a3a3a;
+    height: 125px;
+    width: 100%;
+    position: absolute;
+    top: 3050px;
+    line-height: 125px;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+footer ul a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul img {
+    margin-right: 10px;
+    margin-left: 20px;
+}
