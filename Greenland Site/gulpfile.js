@@ -29,7 +29,7 @@ gulp.task('cssuglify', function () {
       "maxLineLen": 80,
       "uglyComments": true
     }))
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('CSSuglify'));
 });
 
 // browser-sync

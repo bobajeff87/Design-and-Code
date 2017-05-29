@@ -101,8 +101,12 @@ header .headline {
 
 .weather-div {
     position: absolute;
-    height: 400px;
+    height: 500px;
     width: 100%;
-    background-color: #088e87;
+    background-color: white;
     top: 950px;
+}
+
+.weatherpic {
+    height: 500px;
 }
