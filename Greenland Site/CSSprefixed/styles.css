@@ -54,7 +54,7 @@ header .headline {
 }
 
 .travel-rates-header {
-    background-image: url('_assets/travelrates.png');
+    background-image: url('_assets/travelrates2.png');
     background-repeat: no-repeat;
     height: 500px;
     width: 100%;
@@ -68,9 +68,12 @@ header .headline {
     height: 250px;
     position: absolute;
     top: 250px;
-    left: 35%;
+    left: 33%;
     color: black;
     text-align: center;
+    border: 1px solid #333;
+    -webkit-box-shadow: 3px 3px 2px #333;
+            box-shadow: 3px 3px 2px #333;
 }
 
 .flightrates h1 {
