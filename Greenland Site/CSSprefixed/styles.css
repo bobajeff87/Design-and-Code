@@ -151,7 +151,7 @@ header .headline {
 .calendar {
     position: absolute;
     left: 10%;
-    top: 75px;
+    top: 100px;
 }
 
 .equalize {
@@ -182,4 +182,25 @@ header .headline {
     position: absolute;
     top: 400px;
     left: 70%;
+}
+
+.activities-div {
+    position: absolute;
+    top: 1950px;
+    height: 500px;
+    width: 100%;
+    background-color: pink;
+
+}
+
+.activities-tab {
+    width: 270px;
+    height: 400px;
+    background-color: #1ebeb4;
+    position: absolute;
+    left: 10%;
+}
+
+.activities-tab p {
+    color: white;
 }
