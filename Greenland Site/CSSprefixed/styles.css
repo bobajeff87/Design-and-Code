@@ -110,3 +110,76 @@ header .headline {
 .weatherpic {
     height: 500px;
 }
+
+.seagull {
+    position: absolute;
+    top: 225px;
+    left: 72%;
+}
+
+.degrees {
+    font-size: 90pt;
+    color: orange;
+    position: absolute;
+    left: 75%;
+    top: 50px;
+}
+
+.location {
+    position: absolute;
+    top: 200px;
+    left: 79%;
+}
+
+.now {
+    position: absolute;
+    top: 200px;
+    left: 81%;
+    font-size: 20pt;
+}
+
+.calendar-div {
+    background-image: url('_assets/greenland-mountains.png');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 1450px;
+}
+
+
+.calendar {
+    position: absolute;
+    left: 10%;
+    top: 75px;
+}
+
+.equalize {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+}
+
+.reverse {
+    position: absolute;
+    top: 400px;
+    left: 55%;
+}
+
+.play {
+    position: absolute;
+    top: 400px;
+    left: 60%;
+}
+
+.forward {
+    position: absolute;
+    top: 400px;
+    left: 65%;
+}
+
+.shuffle {
+    position: absolute;
+    top: 400px;
+    left: 70%;
+}

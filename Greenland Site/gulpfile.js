@@ -3,11 +3,13 @@ var uglify = require('gulp-uglify');
 var autoprefixer = require('gulp-autoprefixer');
 var browsersync = require('browser-sync').create();
 var uglifycss = require('gulp-uglifycss');
+var plumber = require('gulp-plumber');
 
 // uglify js
 
 gulp.task('scripts', function() {
     gulp.src('js/*.js')
+        .pipe(plumber())
         .pipe(uglify())
         .pipe(gulp.dest('minifyjs'))
 });
@@ -16,6 +18,7 @@ gulp.task('scripts', function() {
 
 gulp.task('styles', function() {
     gulp.src('css/styles.css')
+        .pipe(plumber())
         .pipe(autoprefixer())
         .pipe(gulp.dest('CSSprefixed'))
         .pipe(browsersync.reload({ stream: true }))
@@ -25,10 +28,7 @@ gulp.task('styles', function() {
 
 gulp.task('cssuglify', function () {
   gulp.src('css/styles.css')
-    .pipe(uglifycss({
-      "maxLineLen": 80,
-      "uglyComments": true
-    }))
+    .pipe(uglifycss())
     .pipe(gulp.dest('CSSuglify'));
 });
 
