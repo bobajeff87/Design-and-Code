@@ -27,9 +27,12 @@ gulp.task('styles', function() {
 // uglify css
 
 gulp.task('cssuglify', function () {
-  gulp.src('css/styles.css')
-    .pipe(uglifycss())
-    .pipe(gulp.dest('CSSuglify'));
+  gulp.src('./css/*.css')
+    .pipe(uglifycss({
+      "maxLineLen": 80,
+      "uglyComments": true
+    }))
+    .pipe(gulp.dest('CSSugly'));
 });
 
 // browser-sync

@@ -85,6 +85,8 @@ header .headline {
     width: 250px;
     height: 300px;
     background-color: #088e87;
+    background: -webkit-gradient(linear, right bottom, left top, from(#01a59a), to(#0a8884));
+    background: linear-gradient(to top left, #01a59a, #0a8884);
     position: absolute;
     top: 200px;
     left: 52%;
@@ -94,6 +96,8 @@ header .headline {
     width: 200px;
     height: 300px;
     background-color: #79c378;
+    background: -webkit-gradient(linear, right bottom, left top, from(#7bc377), to(#56a68d));
+    background: linear-gradient(to top left, #7bc377, #56a68d);
     position: absolute;
     top: 200px;
     left: 67%;
@@ -154,34 +158,50 @@ header .headline {
     top: 100px;
 }
 
+.playlogo {
+    position: absolute;
+    left: 55%;
+    top: 100px;
+}
+
+.playlogo-in {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    left: 58.25%;
+    border-radius: 50px;
+}
+
 .equalize {
     position: absolute;
     top: 400px;
-    left: 50%;
+    left: 51%;
 }
 
 .reverse {
     position: absolute;
     top: 400px;
-    left: 55%;
+    left: 56%;
 }
 
 .play {
     position: absolute;
     top: 400px;
-    left: 60%;
+    left: 61%;
 }
 
 .forward {
     position: absolute;
     top: 400px;
-    left: 65%;
+    left: 66%;
 }
 
 .shuffle {
     position: absolute;
     top: 400px;
-    left: 70%;
+    left: 71%;
 }
 
 .activities-div {
