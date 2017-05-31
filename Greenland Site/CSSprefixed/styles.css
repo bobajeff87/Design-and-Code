@@ -32,7 +32,6 @@ header .headline {
     opacity: 0.7;
     position: absolute;
     left: -300px;
-    line-height: 450px;
 }
 
 .navbar {
@@ -46,11 +45,33 @@ header .headline {
     z-index: 2;
 }
 
+.navbar nav {
+    position: absolute;
+    left: 38%;
+    top: 25px;
+}
+
+.navbar nav ul {
+    position: absolute;
+    display: inline;
+    text-decoration: none;
+}
+
+.navbar nav ul li {
+    line-height: 85px;
+    list-style-type: none;
+}
+
+.account {
+    margin-left: -5px;
+}
+
 .asideimg {
     height: 100px;
     width: 100px;
     margin-left: 35%;
     opacity: 1.0;
+    margin-top: 50%;
 }
 
 .travel-rates-header {
