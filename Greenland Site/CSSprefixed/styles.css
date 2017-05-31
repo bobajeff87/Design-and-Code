@@ -60,6 +60,7 @@ header .headline {
     width: 100%;
     position: absolute;
     top: 450px;
+    border-bottom: 1px solid grey;
 }
 
 .flightrates {
@@ -205,12 +206,39 @@ header .headline {
 }
 
 .activities-div {
+    background-image: url('_assets/activities-cover.png');
     position: absolute;
     top: 1950px;
     height: 500px;
     width: 100%;
-    background-color: pink;
+    background-color: white;
+}
 
+.delight {
+    position: absolute;
+    left: 45%;
+    color: #0176a2;
+    font-size: 28pt;
+    top: 100px;
+}
+
+.delight-para {
+    position: absolute;
+    line-height: 30px;
+    left: 46.5%;
+    top: 200px;
+    font-size: 12pt;
+    width: 500px;
+    text-align: center;
+}
+
+.activities-div ul {
+    display: inline-block;
+    color: white;
+    line-height: 40px;
+    position: absolute;
+    left: 25%;
+    top: 25%;
 }
 
 .activities-tab {
@@ -223,4 +251,41 @@ header .headline {
 
 .activities-tab p {
     color: white;
+    font-size: 20pt;
+    margin-left: 40px;
+    margin-top: 40px;
 }
+
+footer {
+    position: absolute;
+    top: 2450px;
+    background-color: #193f48;
+    height: 150px;
+    width: 100%;
+    opacity: 0.9;
+}
+footer nav {
+    position: absolute;
+    left: 14%;
+    top: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+}
+
+footer ul {
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+footer nav {
+    width: 75%;
+    margin: 0 auto;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
