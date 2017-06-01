@@ -8,7 +8,7 @@
 
 header {
     height: 450px;
-    background-image: url('_assets/Greenland-header-2.png');
+    background-image: url('_assets/Greenland-header.png');
 }
 
 header .headline {
@@ -80,13 +80,12 @@ header .headline {
 }
 
 .travel-rates-header {
-    background-image: url('_assets/travelrates2.png');
+    background-image: url('_assets/travelrates.png');
     background-repeat: no-repeat;
     height: 500px;
     width: 100%;
     position: absolute;
     top: 450px;
-    border-bottom: 1px solid grey;
 }
 
 .flightrates {
