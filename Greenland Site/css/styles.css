@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
-
 * {
     margin: 0px;
     padding: 0px;
@@ -34,7 +33,7 @@ header .headline {
     width: 300px;
     height: 450px;
     background-color: #3976ad;
-    opacity: 0.7;
+    opacity: 0.77;
     position: absolute;
     left: -300px;
 }
@@ -100,7 +99,6 @@ header .headline {
     border: 1px solid #333;
     box-shadow: 3px 3px 2px #333;
 }
-
 
 .flightrates h1 {
     margin-top: 150px;
@@ -189,7 +187,6 @@ header .headline {
     top: 1450px;
 }
 
-
 .calendar {
     position: absolute;
     left: 10%;
@@ -210,6 +207,12 @@ header .headline {
     top: 150px;
     left: 58.25%;
     border-radius: 50px;
+}
+
+.playericon {
+    position: absolute;
+    left: 32%;
+    top: 35%;
 }
 
 .equalize {
@@ -302,6 +305,7 @@ footer {
     width: 100%;
     opacity: 0.9;
 }
+
 footer nav {
     position: absolute;
     left: 14%;
@@ -326,4 +330,3 @@ footer nav ul li {
     display: inline-block;
     margin-right: 20px;
 }
-
