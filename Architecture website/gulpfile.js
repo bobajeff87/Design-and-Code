@@ -3,11 +3,14 @@ var uglify = require('gulp-uglify');
 var autoprefixer = require('gulp-autoprefixer');
 var browsersync = require('browser-sync').create();
 var uglifycss = require('gulp-clean-css');
+var plumber = require('gulp-plumber');
+var reload = browsersync.reload;
 
 // uglify js
 
 gulp.task('scripts', function() {
     gulp.src('js/*.js')
+        .pipe(plumber())
         .pipe(uglify())
         .pipe(gulp.dest('minifyjs'))
 });
@@ -16,17 +19,18 @@ gulp.task('scripts', function() {
 
 gulp.task('styles', function() {
     gulp.src('css/styles.css')
+        .pipe(plumber())
         .pipe(autoprefixer())
         .pipe(gulp.dest('CSSprefixed'))
         .pipe(browsersync.reload({ stream: true }))
 });
 
-// minify css
+// uglify css
 
 gulp.task('cssuglify', function() {
-  return gulp.src('css/styles.css')
-    .pipe(uglifycss())
-    .pipe(gulp.dest('CSSuglify'))
+    return gulp.src('css/styles.css')
+        .pipe(uglifycss())
+        .pipe(gulp.dest('CSSuglify'))
 });
 
 // browser-sync
@@ -38,7 +42,7 @@ gulp.task('browsersync', function() {
         }
     });
     gulp.watch('css/styles.css', ['styles']);
-    gulp.watch('index.html').on('change', broswersync.reload({ stream: true }));
+    gulp.watch("*.html").on("change", reload);
 });
 
-gulp.task('default', ['cssuglify', 'styles', 'scripts', 'browsersync']);
+gulp.task('default', ['styles', 'cssuglify', 'scripts', 'browsersync']);
