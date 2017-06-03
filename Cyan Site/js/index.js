@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    $('.menu').click(function() {
-        $('.main-ul').css("visibility", "visible");
+    $('.main-menu').hover(function() {
+        $('.drop-menu').css("visibility", "visible");
     })
-    $('.menu').focusout(function() {
-        $('.main-ul').css("visibility", "hidden");
+    $('.main-menu').mouseleave(function() {
+        $('.drop-menu').css("visibility", "hidden");
     })
 });
