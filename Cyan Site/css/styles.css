@@ -55,6 +55,7 @@ ul {
     padding: 0;
     width: 200px;
     background-color: #0f1922;
+    visibility: hidden;
 }
 
 li a {
