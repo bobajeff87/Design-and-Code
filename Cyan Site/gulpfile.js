@@ -37,7 +37,6 @@ gulp.task('cssuglify', function() {
 
 gulp.task('browsersync', function() {
     browsersync.init({
-        open: false,
         server: {
             baseDir: './'
         }

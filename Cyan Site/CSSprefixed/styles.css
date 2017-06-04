@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 * {
     margin: 0px;
     padding: 0px;
@@ -118,6 +119,7 @@ li a:hover {
     color: #5addb6;
     text-align: center;
     line-height: 23px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .buy {
@@ -140,6 +142,7 @@ li a:hover {
     color: #68838b;
     text-align: center;
     line-height: 23px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .details1 {
@@ -162,6 +165,7 @@ li a:hover {
     color: #5addb6;
     text-align: center;
     line-height: 23px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .details2 {
@@ -175,16 +179,6 @@ li a:hover {
     width: 80px;
 }
 
-.gallery-div {
-    position: absolute;
-    top: 875px;
-    width: 100%;
-    height: 500px;
-    background-color: #5addb6;
-    opacity: 0.8;
-    z-index: -2;
-}
-
 .hero-ul {
     margin-left: 49%;
     line-height: 75px;
@@ -195,5 +189,49 @@ li a:hover {
     font-size: 12pt;
     color: #68838b;
     margin-right: 20px;
+    text-align: center;
+}
+
+.gallery-div {
+    position: absolute;
+    top: 875px;
+    width: 100%;
+    height: 500px;
+    background: url('_assets/gallerydiv.png');
+    background-size: cover;
+    opacity: 0.8;
+    z-index: -2;
+}
+
+.gallery-div div {
+    width: 75%;
+    height: 75px;
+    background-color: #5addb6;
+    z-index: 2;
+    position: absolute;
+    left: 25%;
+    top: 425px;
+}
+
+.gallery-div p {
+    color: white;
+    position: absolute;
+    left: 48%;
+    font-size: 44pt;
+    line-height: 450px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 5px;
+}
+
+.gallery-ul {
+    margin-left: 35%;
+    line-height: 75px;
+}
+
+.gallery-ul li {
+    display: inline;
+    font-size: 12pt;
+    color: white;
+    margin-right: 40px;
     text-align: center;
 }
