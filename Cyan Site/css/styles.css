@@ -286,7 +286,7 @@ li a:hover {
 }
 
 .work-ul {
-    margin-left: 54%;
+    margin-left: 55%;
     line-height: 75px;
     height: 75px;
     background-color: #b2c5cb;
@@ -299,4 +299,35 @@ li a:hover {
     margin-right: 25px;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.employee-services-div {
+    height: 1000px;
+    position: absolute;
+    top: 2375px;
+    width: 100%;
+}
+
+.blogger1 {
+    position: absolute;
+    top: 175px;
+    left: 30%;
+}
+
+.blogger2 {
+    position: absolute;
+    top: 175px;
+    left: 45%;
+}
+
+.blogger3 {
+    position: absolute;
+    top: 175px;
+    left: 60%;
+}
+
+.blogger4 {
+    position: absolute;
+    top: 175px;
+    left: 75%;
 }
