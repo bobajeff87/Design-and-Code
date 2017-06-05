@@ -72,6 +72,8 @@ li a {
     color: #68838b;
     padding: 8px 16px;
     text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 2px;
 }
 
 
@@ -124,7 +126,7 @@ li a:hover {
 
 .buy {
     color: #5addb6;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 3px 5px 3px 5px;
     border: 1px solid #5addb6;
     position: absolute;
@@ -148,7 +150,7 @@ li a:hover {
 .details1 {
     background-color: #68838b;
     color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 3px 5px 3px 5px;
     position: absolute;
     top: 120%;
@@ -170,7 +172,7 @@ li a:hover {
 
 .details2 {
     color: #5addb6;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 3px 5px 3px 5px;
     border: 1px solid #5addb6;
     position: absolute;
@@ -190,6 +192,7 @@ li a:hover {
     color: #68838b;
     margin-right: 20px;
     text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .gallery-div {
@@ -234,4 +237,5 @@ li a:hover {
     color: white;
     margin-right: 40px;
     text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
