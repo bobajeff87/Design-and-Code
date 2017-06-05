@@ -94,6 +94,32 @@ li a:hover {
     z-index: -1;
 }
 
+.hero-ul {
+    margin-left: 51%;
+    line-height: 75px;
+}
+
+.hero-ul li {
+    display: inline;
+    font-size: 12pt;
+    color: #68838b;
+    margin-right: 20px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.hero-text {
+    color: white;
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    left: 42%;
+    font-size: 44pt;
+    line-height: 450px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 5px;
+}
+
 .hero-section div {
     width: 90%;
     height: 75px;
@@ -181,20 +207,6 @@ li a:hover {
     width: 80px;
 }
 
-.hero-ul {
-    margin-left: 49%;
-    line-height: 75px;
-}
-
-.hero-ul li {
-    display: inline;
-    font-size: 12pt;
-    color: #68838b;
-    margin-right: 20px;
-    text-align: center;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
 .gallery-div {
     position: absolute;
     top: 875px;
@@ -227,7 +239,7 @@ li a:hover {
 }
 
 .gallery-ul {
-    margin-left: 35%;
+    margin-left: 27%;
     line-height: 75px;
 }
 
