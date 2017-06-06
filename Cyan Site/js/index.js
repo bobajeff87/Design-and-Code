@@ -1,8 +1,14 @@
 $(document).ready(function() {
     $('.main-menu').hover(function() {
-        $('.drop-menu').css("visibility", "visible");
+        $('.main-drop-menu').css("visibility", "visible");
     })
     $('.main-menu').mouseleave(function() {
-        $('.drop-menu').css("visibility", "hidden");
+        $('.main-drop-menu').css("visibility", "hidden");
+    })
+    $('.work-about').hover(function() {
+        $('.work-about-drop').css("visibility", "visible");
+    })
+    $('.work-about').mouseleave(function() {
+        $('.work-about-drop').css("visibility", "hidden");
     })
 });

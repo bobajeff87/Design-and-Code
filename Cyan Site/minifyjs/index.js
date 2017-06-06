@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".main-menu").hover(function(){$(".drop-menu").css("visibility","visible")}),$(".main-menu").mouseleave(function(){$(".drop-menu").css("visibility","hidden")})});
+$(document).ready(function(){$(".main-menu").hover(function(){$(".main-drop-menu").css("visibility","visible")}),$(".main-menu").mouseleave(function(){$(".main-drop-menu").css("visibility","hidden")})});

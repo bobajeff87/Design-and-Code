@@ -53,9 +53,9 @@ nav {
     visibility: visible;
 }
 
-.drop-menu {
+.main-drop-menu {
     list-style-type: none;
-    position: absolute;
+    position: fixed;
     margin: 0;
     padding: 0;
     width: 200px;
@@ -286,7 +286,7 @@ li a:hover {
 }
 
 .work-ul {
-    margin-left: 55%;
+    margin-left: 50%;
     line-height: 75px;
     height: 75px;
     background-color: #b2c5cb;
@@ -296,9 +296,55 @@ li a:hover {
     display: inline;
     font-size: 12pt;
     color: white;
-    margin-right: 25px;
+    margin-right: 100px;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.work-about {
+    list-style-type: none;
+    margin-top: 50px;
+    width: 200px;
+    background-color: #b2c5cb;
+    visibility: visible;
+    z-index: 1000;
+}
+
+.work-about-drop {
+    list-style-type: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #a5b0b3;
+    visibility: hidden;
+    z-index: 1000;
+    position: absolute;
+    left: 43.5%;
+}
+
+.work-about-drop li {
+    display: block;
+    font-size: 12pt;
+    color: #68838b;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    z-index: 1000;
+}
+
+.work-about-drop li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 2px;
+}
+
+.work-about-drop li a:hover {
+    background-color: #a5b0b3;
+    text-decoration: none;
+    color: white;
 }
 
 .employee-services-div {
@@ -312,12 +358,14 @@ li a:hover {
     position: absolute;
     top: 175px;
     left: 30%;
+    z-index: -5;
 }
 
 .blogger2 {
     position: absolute;
     top: 175px;
     left: 45%;
+    z-index: -5;
 }
 
 .blogger3 {
