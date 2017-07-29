@@ -157,6 +157,11 @@ li a:hover {
     width: 80px;
 }
 
+.buy:hover {
+    color: white;
+    background-color: #68838b;
+}
+
 .optimized {
     width: 200px;
     position: absolute;
@@ -174,6 +179,18 @@ li a:hover {
     color: white;
     border-radius: 15px;
     padding: 3px 5px 3px 5px;
+    position: absolute;
+    top: 120%;
+    left: 30%;
+    width: 80px;
+}
+
+.details1:hover {
+    color: #5addb6;
+    background-color: white;
+    border-radius: 15px;
+    padding: 3px 5px 3px 5px;
+    border: 1px solid #5addb6;
     position: absolute;
     top: 120%;
     left: 30%;
@@ -201,6 +218,11 @@ li a:hover {
     top: 120%;
     left: 30%;
     width: 80px;
+}
+
+.details2:hover {
+    color: white;
+    background-color: #68838b;
 }
 
 .gallery-div {
