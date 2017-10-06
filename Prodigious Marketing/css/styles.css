@@ -9,6 +9,9 @@
     height: 600px;
     width: 100%;
     background-color: #383838;
+    background-image: url("_assets/heroBG.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
 }
 
 nav a {
@@ -17,20 +20,20 @@ nav a {
 
 nav {
     background-color: #2da78e;
-    width: 70%;
-    height: 30px;
+    width: 60%;
+    height: 40px;
     margin: 0 auto;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 nav ul {
     position: absolute;
-    left: 33%;
+    left: 32%;
 }
 
 nav ul li {
     list-style: none;
-    line-height: 30px;
+    line-height: 40px;
     display: inline-block;
     vertical-align: center;
     padding-right: 40px;
@@ -46,4 +49,19 @@ nav ul li {
     position: absolute;
     top: 500px;
     left: 20%;
+}
+
+.herobottombar ul li {
+    list-style: none;
+    line-height: 140px;
+    display: inline-block;
+    vertical-align: center;
+    padding-right: 40px;
+    margin-left: 40px;
+    color: white;
+}
+
+.herobottombar ul {
+    position: absolute;
+    left: 10%;
 }
