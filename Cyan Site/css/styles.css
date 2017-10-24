@@ -147,10 +147,10 @@ li a:hover {
 }
 
 .buy {
-    color: #5addb6;
+    color: black;
     border-radius: 15px;
     padding: 3px 5px 3px 5px;
-    border: 1px solid #5addb6;
+    border: 1px solid black;
     position: absolute;
     top: 120%;
     left: 30%;
@@ -210,10 +210,10 @@ li a:hover {
 }
 
 .details2 {
-    color: #5addb6;
+    color: black;
     border-radius: 15px;
     padding: 3px 5px 3px 5px;
-    border: 1px solid #5addb6;
+    border: 1px solid black;
     position: absolute;
     top: 120%;
     left: 30%;
