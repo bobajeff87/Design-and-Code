@@ -81,6 +81,34 @@ li a:hover {
     text-decoration: none;
 }
 
+
+/* glyphicons */
+
+.icons {
+    margin-top: 700px;
+    position: fixed;
+}
+
+.glyphicon-envelope {
+    color: white;
+    padding-left: 22px;
+}
+
+.glyphicon-earphone {
+    color: white;
+    padding-left: 22px;
+}
+
+.glyphicon-home {
+    color: white;
+    padding-left: 22px;
+}
+
+.glyphicon-user {
+    color: white;
+    padding-left: 22px;
+}
+
 .hero-section {
     position: absolute;
     width: 100%;
