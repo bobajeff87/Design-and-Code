@@ -1,6 +1,6 @@
 module.exports = {
     entry: [
-        '/src/app.js'
+        './src/app.js'
     ],
     output: {
         path: __dirname,
@@ -9,7 +9,10 @@ module.exports = {
     module: {
         loaders: [{
             test: /\.jsx?$/,
-            loader: 'babel'
+            loader: 'babel',
+            query: {
+                presets: ['es2015', 'react']
+            }
         }]
     }
 };
