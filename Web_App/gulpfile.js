@@ -9,7 +9,7 @@ var reload = browsersync.reload;
 // uglify js
 
 gulp.task('scripts', function() {
-    gulp.src('js/*.js')
+    gulp.src('src/*.js')
         .pipe(plumber())
         .pipe(uglify())
         .pipe(gulp.dest('minifyjs'))
@@ -18,7 +18,7 @@ gulp.task('scripts', function() {
 // css prefixer
 
 gulp.task('styles', function() {
-    gulp.src('css/styles.css')
+    gulp.src('src/styles.css')
         .pipe(plumber())
         .pipe(autoprefixer())
         .pipe(gulp.dest('CSSprefixed'))
@@ -28,7 +28,7 @@ gulp.task('styles', function() {
 // uglify css
 
 gulp.task('cssuglify', function() {
-    return gulp.src('css/styles.css')
+    return gulp.src('src/styles.css')
         .pipe(uglifycss())
         .pipe(gulp.dest('CSSuglify'))
 });
@@ -41,7 +41,7 @@ gulp.task('browsersync', function() {
             baseDir: './'
         }
     });
-    gulp.watch('css/styles.css', ['styles']);
+    gulp.watch('src/styles.css', ['styles']);
     gulp.watch("*.html").on("change", reload);
 });
 
