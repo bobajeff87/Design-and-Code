@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.header {
+    background-image: url("_assets/01bike.jpg");
+    background-size: 100% 100%;
+    height: 600px;
+}
+
+.header p {
+    font-size: 80pt;
+    color: white;
+    text-align: center;
+    line-height: 600px;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 8px;
+}
+
+.logo {
+    position: absolute;
+    left: 250px;
+    top: 25px;
+}
+
+.nav {
+    background-color: white;
+    text-align: center;
+    opacity: 0.85;
+    height: 75px;
+    line-height: 75px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.nav ul {
+    margin-left: 400px;
+}
+
+.nav a {
+    color: black;
+}
+
+.nav a:hover {
+    text-decoration: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    vertical-align: center;
+    padding-right: 40px;
+}
+
+.nav img {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.features::after {
+    margin-left: 15px;
+    content: "|";
+}
+
+.design {
+    background-color: #5c323e;
+    width: 125px;
+    height: 125px;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+    position: absolute;
+    left: 20%;
+    line-height: 125px;
+    top: 550px;
+    border: 3px solid #deb8bc;
+}
+
+.photography {
+    background-color: #A52A45;
+    width: 125px;
+    height: 125px;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+    line-height: 125px;
+    margin: 0 auto;
+    position: absolute;
+    left: 45%;
+    top: 550px;
+    border: 3px solid #deb8bc;
+}
+
+.branding {
+    background-color: #e15e32;
+    width: 125px;
+    height: 125px;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+    position: absolute;
+    left: 70%;
+    line-height: 125px;
+    top: 550px;
+    border: 3px solid #deb8bc;
+}
+
+.design p,
+.photography p,
+.branding p {
+    color: white;
+    font-size: 34pt;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.design h3,
+.branding h3 {
+    text-align: center;
+}
+
+.photography h3 {
+    text-align: center;
+    clear: left;
+    margin-left: -35px;
+}
+
+.designpopup {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-top: 1px solid #deb8bc;
+    border-left: 1px solid #deb8bc;
+    border-right: 1px solid #deb8bc;
+    border-bottom: 4px solid #5c323e;
+    position: absolute;
+    left: 15%;
+    top: 300px;
+    text-align: center;
+    visibility: hidden;
+}
+
+.designpic {
+    border-bottom: 2px solid #5c323e;
+}
+
+.photopopup {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-top: 1px solid #deb8bc;
+    border-left: 1px solid #deb8bc;
+    border-right: 1px solid #deb8bc;
+    border-bottom: 4px solid #A52A45;
+    position: absolute;
+    left: 39.5%;
+    top: 300px;
+    text-align: center;
+    visibility: hidden;
+}
+
+.photopic {
+    border-bottom: 2px solid #A52A45;
+}
+
+.brandingpopup {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-top: 1px solid #deb8bc;
+    border-left: 1px solid #deb8bc;
+    border-right: 1px solid #deb8bc;
+    border-bottom: 4px solid #e15e32;
+    position: absolute;
+    left: 64.5%;
+    top: 300px;
+    text-align: center;
+    visibility: hidden;
+}
+
+.brandingpic {
+    border-bottom: 2px solid #e15e32;
+}
+
+hr.firsthr {
+    width: 75%;
+    position: absolute;
+    top: 750px;
+    left: 12.5%;
+    border: 1px solid grey;
+}
+
+
+/* project description #1 */
+
+hr.proj1 {
+    width: 75%;
+    border: 1px solid grey;
+    margin: 0 auto;
+}
+
+.projdesc1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 14%;
+    top: 1175px;
+}
+
+.projdesc1 p {
+    margin-top: 20px;
+    text-align: center;
+    height: 200px;
+}
+
+
+/* project description #2 */
+
+hr.proj2 {
+    width: 75%;
+    border: 1px solid grey;
+    margin: 0 auto;
+}
+
+.projdesc2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 34%;
+    top: 1175px;
+}
+
+.projdesc2 p {
+    margin-top: 20px;
+    text-align: center;
+    height: 200px;
+}
+
+
+/* project description #3 */
+
+hr.proj3 {
+    width: 75%;
+    border: 1px solid grey;
+    margin: 0 auto;
+}
+
+.projdesc3 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 54%;
+    top: 1175px;
+}
+
+.projdesc3 p {
+    margin-top: 20px;
+    text-align: center;
+    height: 200px;
+}
+
+
+/* project description #4 */
+
+hr.proj4 {
+    width: 75%;
+    border: 1px solid grey;
+    margin: 0 auto;
+}
+
+.projdesc4 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 74%;
+    top: 1175px;
+}
+
+.projdesc4 p {
+    margin-top: 20px;
+    text-align: center;
+    height: 200px;
+}
+
+hr.secondhr {
+    width: 75%;
+    position: absolute;
+    top: 1350px;
+    left: 12.5%;
+    border: 1px solid grey;
+}
+
+.blogs {
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 800px;
+}
+
+.blogs {
+    position: absolute;
+}
+
+.blogs h4 {
+    position: absolute;
+    top: 25px;
+    left: 10%;
+}
+
+.blog1 {
+    position: absolute;
+    top: 125px;
+    left: 15%;
+}
+
+.blog2 {
+    position: absolute;
+    top: 425px;
+    left: 15%;
+}
+
+.blog3 {
+    position: absolute;
+    top: 125px;
+    left: 52%;
+}
+
+.blog4 {
+    position: absolute;
+    top: 425px;
+    left: 52%;
+}
+
+.blogger1 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 15%;
+    top: 300px;
+}
+
+.blogger2 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 52%;
+    top: 300px;
+    z-index: 2;
+}
+
+.blogger3 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 15%;
+    top: 600px;
+}
+
+.blogger4 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 52%;
+    top: 600px;
+}
+
+.matahealy {
+    position: absolute;
+    top: 675px;
+    left: 59%;
+}
+
+.bradgrosh {
+    position: absolute;
+    top: 375px;
+    left: 59%;
+}
+
+.patrickpool {
+    position: absolute;
+    top: 375px;
+    left: 22%;
+}
+
+.tomjames {
+    position: absolute;
+    top: 675px;
+    left: 22%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+footer {
+    background-color: #3a3a3a;
+    height: 125px;
+    width: 100%;
+    position: absolute;
+    top: 1550px;
+    line-height: 125px;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+footer ul a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul img {
+    margin-right: 10px;
+    margin-left: 20px;
+}
