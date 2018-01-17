@@ -15,4 +15,4 @@ var slide_index = 1;
             for (i = 0; i < slides.length; i++) {  
                 slides[i].style.display = "none";  
             }  
-            slides[slide_index - 1].style.display = "block"; }
+            slides[slide_index - 1].style.display = "block";}
