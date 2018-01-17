@@ -1,10 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import "compass/css3";
+
 * {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  @include box-sizing(border-box);
 }
+
+.slider_container {
+    position: absolute;
+    top: 750px;
+    left: 525px;
+    width: 500px;
+    height: 300px;
+    margin: 1.5em auto;
+    overflow: hidden;
+    z-index: 1000;
+}
+.slider {
+    img {
+      float: left;
+    }
+}
+
 
 .header {
     background-image: url("_assets/01bike.jpg");
@@ -193,98 +213,6 @@ hr.firsthr {
     border: 1px solid grey;
 }
 
-
-/* project description #1 */
-
-hr.proj1 {
-    width: 75%;
-    border: 1px solid grey;
-    margin: 0 auto;
-}
-
-.projdesc1 {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    left: 14%;
-    top: 1175px;
-}
-
-.projdesc1 p {
-    margin-top: 20px;
-    text-align: center;
-    height: 200px;
-}
-
-
-/* project description #2 */
-
-hr.proj2 {
-    width: 75%;
-    border: 1px solid grey;
-    margin: 0 auto;
-}
-
-.projdesc2 {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    left: 34%;
-    top: 1175px;
-}
-
-.projdesc2 p {
-    margin-top: 20px;
-    text-align: center;
-    height: 200px;
-}
-
-
-/* project description #3 */
-
-hr.proj3 {
-    width: 75%;
-    border: 1px solid grey;
-    margin: 0 auto;
-}
-
-.projdesc3 {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    left: 54%;
-    top: 1175px;
-}
-
-.projdesc3 p {
-    margin-top: 20px;
-    text-align: center;
-    height: 200px;
-}
-
-
-/* project description #4 */
-
-hr.proj4 {
-    width: 75%;
-    border: 1px solid grey;
-    margin: 0 auto;
-}
-
-.projdesc4 {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    left: 74%;
-    top: 1175px;
-}
-
-.projdesc4 p {
-    margin-top: 20px;
-    text-align: center;
-    height: 200px;
-}
-
 hr.secondhr {
     width: 75%;
     position: absolute;
@@ -298,7 +226,7 @@ hr.secondhr {
     width: 100%;
     background-color: white;
     position: absolute;
-    top: 800px;
+    top: 1100px;
 }
 
 .blogs {
@@ -392,76 +320,12 @@ hr.secondhr {
     left: 22%;
 }
 
-.showSlide {  
-    display: "none";
-}  
-
-.showSlide img {  
-    width: 100%;  
-}  
-
-.slidercontainer {  
-    max-width: 1000px;  
-    position: relative;  
-    margin: auto;  
-    z-index: 1000;
-}  
-.left, .right {  
-    cursor: pointer;  
-    position: absolute;  
-    top: 50%;  
-    width: auto;  
-    padding: 16px;  
-    margin-top: -22px;  
-    color: black;  
-    font-weight: bold;  
-    font-size: 18px;  
-    transition: 0.6s ease;  
-    border-radius: 0 3px 3px 0;  
-}  
-.right {  
-    right: 0;  
-    border-radius: 3px 0 0 3px;  
-}  
-    .left:hover, .right:hover {  
-        background-color: rgba(115, 115, 115, 0.8);  
-    }  
- 
-.active {  
-    background-color: #717171;  
-}  
-
-/* Fading animation */
-.fade {  
-    -webkit-animation-name: fade;  
-    -webkit-animation-duration: 4s;  
-    animation-name: fade;  
-    animation-duration: 4s;  
-}  
-@-webkit-keyframes fade {  
-    from {  
-        opacity: .4  
-    }  
-    to {  
-        opacity: 1  
-    }  
-}  
-
-@keyframes fade {  
-    from {  
-        opacity: .4  
-    }  
-    to {  
-        opacity: 1  
-    }  
-}
-
 footer {
     background-color: #3a3a3a;
     height: 125px;
     width: 100%;
     position: absolute;
-    top: 1550px;
+    top: 1900px;
     line-height: 125px;
     text-align: center;
 }
