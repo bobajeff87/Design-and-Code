@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700');
+
+:root {
+    --licorice: #0f1513;
+    --ruby-red: #971424;
+    --outer-space: #45514f;
+    --dark-vanilla: #c6beae;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border:  0px;
+}
+
+.hero {
+    background-color: var(--licorice);
+    height: 550px;
+    width: 100%;
+}
+
+nav {
+    background-color: var(--dark-vanilla);
+    height: 50px;
+    width: 100%;
+}
+
+nav h1 {
+    color: var(--ruby-red);
+    font-family: 'Oswald:700', sans-serif;
+    position: absolute;
+    line-height: 15px;
+    left: 250px;
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+    left: 1000px;
+    clear: both;
+}
+
+ul li {
+    font-family: 'Oswald:300', sans-serif;
+    color: var(--outer-space);
+    font-size: 14pt;
+    display: inline-block;
+    line-height: 50px;
+    padding-right: 15px;
+}
