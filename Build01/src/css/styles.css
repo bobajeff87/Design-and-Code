@@ -52,7 +52,7 @@
 }
 
 .recNav {
-    color: white;
+    color: var(--dark-vanilla);
 }
 
 .recNav ul {
@@ -82,4 +82,5 @@
 
 .rec1:hover {
     opacity: 1;
+    color: white;
 }
