@@ -51,6 +51,16 @@
     font-weight: 300;
 }
 
+.mainNav ul li a {
+    color: var(--outer-space);
+    text-decoration: none;
+}
+
+.mainNav ul li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
 .recNav {
     color: var(--dark-vanilla);
 }
@@ -83,4 +93,35 @@
 .rec1:hover {
     opacity: 1;
     color: white;
+}
+
+.secondSection {
+    background-color: var(--dark-vanilla);
+    height: 500px;
+    width: 100%;
+}
+
+.secondSection p {
+    color: var(--ruby-red);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    left: 25%;
+    top: 625px;
+    font-size: 14pt;
+}
+
+.imgSection {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+
+.imgSection img {
+    width: 350px;
+    height: 200px;
+    padding-left: 15px;
+    padding-top: 15px;
 }
