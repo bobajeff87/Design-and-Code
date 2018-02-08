@@ -100,7 +100,7 @@
 
 .secondSection {
     background-color: var(--dark-vanilla);
-    height: 500px;
+    height: 600px;
     width: 100%;
 }
 
@@ -132,4 +132,20 @@
     height: 200px;
     padding-left: 15px;
     padding-top: 15px;
+}
+
+.thirdSection {
+    background-color: var(--ruby-red);
+    height: 600px;
+    width: 100%;
+}
+
+.thirdSection p {
+    color: var(--dark-vanilla);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 14pt;
+    position: absolute;
+    left: 25%;
+    top: 1250px;
 }
