@@ -38,7 +38,7 @@ li {
     line-height: 100px;
 }
   
-.container {
+.container-fluid {
     position: absolute;
     left: 15%;
     top: 15%;
@@ -57,14 +57,14 @@ li {
     margin: 0px auto;
 }
 
-.container div {
+.container-fluid div {
     width: 350px;
-    height: 268px;
+    height: auto;
     margin-right: 10px;
     margin-bottom: 60px;
 }
 
-.container div:hover {
+.container-fluid div:hover {
     background-color: black;
     width: 350px;
     height: 268px;
@@ -72,7 +72,7 @@ li {
     margin-bottom: 60px;
 }
 
-.container div p {
+.container-fluid div p {
     color: white;
 }
 
