@@ -19,6 +19,12 @@
     width: 100%;
 }
 
+.heroIMG {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
 .mainNav {
     background-color: var(--dark-vanilla);
     height: 50px;
