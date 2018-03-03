@@ -3,7 +3,7 @@ var ReactDOM = require('react-dom');
 
 var MainInterface = React.createClass({
     render: funtion() {
-        return <h1>Pet Appointments</h1>
+        return <h1> Pet Appointments </h1>
     } //render
 }); //MainInterface
 
