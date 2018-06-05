@@ -26,8 +26,8 @@ gulp.task('css', function() {
 });
 
 gulp.task('watch', function() {
-    gulp.watch( src + '/js/**/*', ['js']);
-    gulp.watch( app + '/css/**/*.css', ['css']);
+    gulp.watch( src + 'app/js/**/*', ['js']);
+    gulp.watch( app + 'app/css/*.css', ['css']);
     gulp.watch([ app + '/**/*.html'], ['html']);
 });
 
