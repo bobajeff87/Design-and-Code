@@ -1,7 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var MainInterface = React.createClass({
+/* var MainInterface = React.createClass({
     render: funtion() {
         return <h1> Pet Appointments </h1>
     } //render
@@ -10,4 +10,4 @@ var MainInterface = React.createClass({
 ReactDOM.render(
     <MainInterface />,
     document.getElementById('petAppointments')
-); //render
+); //render */
