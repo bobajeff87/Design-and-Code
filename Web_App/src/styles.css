@@ -57,9 +57,10 @@ li {
 }
 
 .container-fluid div:hover {
-    background-color: black;
+    background-color: rgb(36, 41, 41);
     width: 350px;
     height: 268px;
+    border-radius: 10px;
     margin-right: 10px;
     margin-bottom: 60px;
 }
