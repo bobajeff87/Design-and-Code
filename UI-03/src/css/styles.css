@@ -130,7 +130,7 @@ body {
 }
 
 .info-div {
-    background-color: var(--thegrey);
+    background-color: var(--gunmetal);
     position: absolute;
     top: 650px;
     width: 100%;
