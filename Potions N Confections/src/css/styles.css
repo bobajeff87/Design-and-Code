@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.heroDiv {
+    height: 400px;
+    width: 100%;
+    /*background-color: #bbe6e4;*/
+    background: rgb(187,230,228);
+    background: linear-gradient(180deg, rgba(187,230,228,1) 90%, rgba(240,246,246,1) 96%);
+}
+
+/*.heroLogo {
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    left: 100px;
+    top: 50px; 
+}*/
+
+.heroLogo2 {
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    left: 100px;
+    top: 10px; 
+}
+
+.greyNav {
+    height: 75px;
+    width: 100%;
+    background-color: #2e2e2e;
+}
+
+.heroDiv nav ul {
+    position: absolute;
+    left: 800px;
+    top: 20px;
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.heroDiv nav ul li{
+    padding-left: 75px;
+}
+
+.infoSEC {
+    height: 350px;
+    width: 100%;
+    background-color: #f0f6f6;
+    position: absolute;
+}
