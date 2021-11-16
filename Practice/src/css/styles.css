@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+ul {width: 100%;
+height: 60px;
+background-color: black;
+list-style-type: none;  
+text-align: center;
+vertical-align: center;}
+
+li {color: white;
+display: inline-block;
+text-decoration-style: none;
+padding-left: 20px;
+line-height: 60px;
+}
+
+header {margin-top: -10px;
+    height: 400px;
+background-color: #FFF0D4;}
+
+header p {
+    width: 400px;
+    text-align: center;
+    float: right;
+    margin-right: 15%;
+    margin-top: 100px;
+}
+
+.buddha {margin-left: 20%;
+padding-top: 20px;}
