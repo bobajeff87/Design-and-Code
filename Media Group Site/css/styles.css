@@ -686,7 +686,7 @@ hr.secondhr {
 
 img.reviewquote {
     position: absolute;
-    left: 47%;
+    left: 45%;
     top: 10px;
     margin: 0 auto;
 }
@@ -697,6 +697,7 @@ img.reviewquote {
     width: 700px;
     font-size: 18pt;
     text-align: center;
+    padding-left: 20px;
     position: absolute;
     left: 27.5%;
     top: 125px;
