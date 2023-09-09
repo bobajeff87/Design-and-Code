@@ -1,7 +1,15 @@
 .App {
   text-align: center;
+  background-color: rgb(19, 135, 212);;
+  width: 100%;
+  height: 150px;
+  opacity: 0.75;
 }
 
 .App h1 {
   color:aquamarine;
+}
+
+.App ul li {
+  color: white;
 }
